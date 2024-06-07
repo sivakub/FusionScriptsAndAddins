@@ -1,0 +1,13 @@
+{
+	"autodeskProduct":	"Fusion360",
+	"type":	"addin",
+	"id":	"982d910f-f82b-4234-be0c-c92e99adbf10",
+	"author":	"Boopathi",
+	"description":	{
+		"":	"Import P21 file types"
+	},
+	"version":	"",
+	"runOnStartup":	false,
+	"supportedOS":	"windows|mac",
+	"editEnabled":	true
+}

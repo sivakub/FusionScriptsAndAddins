@@ -1,0 +1,10 @@
+{
+	"autodeskProduct":	"Fusion360",
+	"type":	"script",
+	"author":	"Boopathi",
+	"description":	{
+		"":	"Import Tools from machiningcloud"
+	},
+	"supportedOS":	"windows|mac",
+	"editEnabled":	true
+}

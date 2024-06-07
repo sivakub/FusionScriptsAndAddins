@@ -1,0 +1,24 @@
+[
+    {
+        "isotype": "303_10",
+        "product_id": "CEPB2200",
+        "isoDescription": "Ball-nosed end mill",
+        "vendor": "Moldino",
+        "units": "Metric",
+        "flute_length": 30.0,
+        "tool_type": "ball end mill",
+        "diameterDC": 20.0,
+        "hand": "R",
+        "corner_radius": 10.0,
+        "holder_id": "B4L4-8020",
+        "iso_holder_description": "Converter, rotationally symmetric",
+        "holder_vendor": "Command Tooling Systems",
+        "holder_orderNumber": "B4L4-8020",
+        "holder_unit": "Metric",
+        "axial_depth_cut": 1.0,
+        "radial_width_cut": 1.0,
+        "cutting_speed": 150.0,
+        "feed_rate": 358.05,
+        "spindle_speed": 2387.0
+    }
+]

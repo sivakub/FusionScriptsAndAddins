@@ -1,0 +1,1873 @@
+[
+    {
+      "71EAD3871D313": {
+        "hierachy": "adaptive item-converter",
+        "classification": "adaptive item",
+        "standard": [
+          {
+            "ISO": "401-5",
+            "DIN": "89-01",
+            "toolType": "Converter, rotationally symmetric"
+          },
+          {
+            "ISO": "401-6",
+            "toolType": "Converter, stationary"
+          }
+        ]
+      }
+    },
+    {
+      "71EAD388173EE": {
+        "hierachy": "adaptive item-driver",
+        "classification": "adaptive item",
+        "standard": [
+          {
+            "ISO": "403",
+            "toolType": "Driven tool unit"
+          }
+        ]
+      }
+    },
+    {
+      "71EEBDADB63BE": {
+        "hierachy": "adaptive item-extender",
+        "classification": "adaptive item",
+        "standard": [
+          {
+            "ISO": "401-7",
+            "toolType": "Extender"
+          }
+        ]
+      }
+    },
+    {
+      "71EAD385E51A0": {
+        "hierachy": "adaptive item-reducer",
+        "classification": "adaptive item",
+        "standard": [
+          {
+            "ISO": "401-8",
+            "toolType": "Reducer, primary design"
+          },
+          {
+            "ISO": "401-9",
+            "toolType": "Reducer, reverse design"
+          }
+        ]
+      }
+    },
+    {
+      "71CE7A795C05C": {
+        "hierachy": "assembly item type",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2",
+            "toolType": "assembly item type"
+          }
+        ]
+      }
+    },
+    {
+      "71EC56BC68ED7": {
+        "hierachy": "assembly item type-bearing",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.1",
+            "toolType": "bearing"
+          }
+        ]
+      }
+    },
+    {
+      "71EC61E259139": {
+        "hierachy": "assembly item type-bush",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.2",
+            "toolType": "bush"
+          }
+        ]
+      }
+    },
+    {
+      "71FAD519268DE": {
+        "hierachy": "assembly item type-centre pin",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.3",
+            "toolType": "centre pin"
+          }
+        ]
+      }
+    },
+    {
+      "71ED80E62E75A": {
+        "hierachy": "assembly item type-coolant deflector",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.4",
+            "toolType": "coolant deflector"
+          }
+        ]
+      }
+    },
+    {
+      "71EC56B51596E": {
+        "hierachy": "assembly item type-driving key",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.5",
+            "toolType": "driving key"
+          }
+        ]
+      }
+    },
+    {
+      "71EC56B58A355": {
+        "hierachy": "assembly item type-driving ring",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.6",
+            "toolType": "driving ring"
+          }
+        ]
+      }
+    },
+    {
+      "71FA4B678C52A": {
+        "hierachy": "assembly item type-externally threaded fastener component",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.7",
+            "toolType": "externally threaded fastener component"
+          }
+        ]
+      }
+    },
+    {
+      "71FC030E04050": {
+        "hierachy": "assembly item type-externally threaded fastener component-deflection screw",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.7.1",
+            "toolType": "deflection screw"
+          }
+        ]
+      }
+    },
+    {
+      "71FAE07C0A4A6": {
+        "hierachy": "assembly item type-externally threaded fastener component-differential screw",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.7.2",
+            "toolType": "differential screw"
+          }
+        ]
+      }
+    },
+    {
+      "71FAE07B90EEC": {
+        "hierachy": "assembly item type-externally threaded fastener component-eccentric screw",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.7.3",
+            "toolType": "eccentric screw"
+          }
+        ]
+      }
+    },
+    {
+      "71ED798F61BC2": {
+        "hierachy": "assembly item type-externally threaded fastener component-insert screw",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.7.4",
+            "toolType": "insert screw"
+          }
+        ]
+      }
+    },
+    {
+      "71FAE07BCAC80": {
+        "hierachy": "assembly item type-externally threaded fastener component-lever screw",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.7.5",
+            "toolType": "lever screw"
+          }
+        ]
+      }
+    },
+    {
+      "71FC81BA3ECE9": {
+        "hierachy": "assembly item type-externally threaded fastener component-shim screw",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.7.6",
+            "toolType": "shim screw"
+          }
+        ]
+      }
+    },
+    {
+      "71ED80DF6F976": {
+        "hierachy": "assembly item type-insert clamp",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.8",
+            "toolType": "insert clamp"
+          }
+        ]
+      }
+    },
+    {
+      "71FAD54E002D6": {
+        "hierachy": "assembly item type-insert clamp-cantilever clamp",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.8.1",
+            "toolType": "cantilever clamp"
+          }
+        ]
+      }
+    },
+    {
+      "71FAD54E5A5BF": {
+        "hierachy": "assembly item type-insert clamp-floating wedge clamp",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.8.2",
+            "toolType": "floating wedge clamp "
+          }
+        ]
+      }
+    },
+    {
+      "71FAD54E2FE26": {
+        "hierachy": "assembly item type-insert clamp-lever top clamp",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.8.3",
+            "toolType": "lever top clamp"
+          }
+        ]
+      }
+    },
+    {
+      "71FAD54EABA17": {
+        "hierachy": "assembly item type-insert clamp-wedge clamp",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.8.4",
+            "toolType": "wedge clamp"
+          }
+        ]
+      }
+    },
+    {
+      "71EC56BAC1A7E": {
+        "hierachy": "assembly item type-insert clamping system",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.9",
+            "toolType": "insert clamping system"
+          }
+        ]
+      }
+    },
+    {
+      "71EC56D6D0499": {
+        "hierachy": "assembly item type-insert clamping system-cantilever clamping",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.9.1",
+            "toolType": "cantilever clamping"
+          }
+        ]
+      }
+    },
+    {
+      "71EC56D97E8B0": {
+        "hierachy": "assembly item type-insert clamping system-deflection screw clamping",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.9.2",
+            "toolType": "deflection screw clamping"
+          }
+        ]
+      }
+    },
+    {
+      "71EC56D908782": {
+        "hierachy": "assembly item type-insert clamping system-eccentric screw clamping",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.9.3",
+            "toolType": "eccentric screw clamping"
+          }
+        ]
+      }
+    },
+    {
+      "71EC56D7601AD": {
+        "hierachy": "assembly item type-insert clamping system-floating wedge clamping",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.9.4",
+            "toolType": "floating wedge clamping"
+          }
+        ]
+      }
+    },
+    {
+      "71EC56D8A655A": {
+        "hierachy": "assembly item type-insert clamping system-insert screw clamping",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.9.5",
+            "toolType": "insert screw clamping"
+          }
+        ]
+      }
+    },
+    {
+      "71FAD547E744B": {
+        "hierachy": "assembly item type-insert clamping system-integrated clamping",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.9.6",
+            "toolType": "integrated clamping"
+          }
+        ]
+      }
+    },
+    {
+      "71EC6588A8C9E": {
+        "hierachy": "assembly item type-insert clamping system-lever insert clamping",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.9.7",
+            "toolType": "lever insert clamping"
+          }
+        ]
+      }
+    },
+    {
+      "71EC56D71B815": {
+        "hierachy": "assembly item type-insert clamping system-lever top clamping",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.9.8",
+            "toolType": "lever top clamping"
+          }
+        ]
+      }
+    },
+    {
+      "71EC56D828198": {
+        "hierachy": "assembly item type-insert clamping system-wedge clamping",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.9.9",
+            "toolType": "wedge clamping"
+          }
+        ]
+      }
+    },
+    {
+      "71ED80DFB6371": {
+        "hierachy": "assembly item type-insert lever",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.10",
+            "toolType": "insert lever"
+          }
+        ]
+      }
+    },
+    {
+      "71EC56BD5DCD8": {
+        "hierachy": "assembly item type-insert shim",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.11",
+            "toolType": "insert shim"
+          }
+        ]
+      }
+    },
+    {
+      "71EC56B608ADC": {
+        "hierachy": "assembly item type-insert wedge",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.12",
+            "toolType": "insert wedge"
+          }
+        ]
+      }
+    },
+    {
+      "71EAD70F1B95A": {
+        "hierachy": "assembly item type-nest",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.13",
+            "toolType": "nest"
+          }
+        ]
+      }
+    },
+    {
+      "71ED80E1EC9F6": {
+        "hierachy": "assembly item type-nozzle",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.14",
+            "toolType": "nozzle"
+          }
+        ]
+      }
+    },
+    {
+      "71EC56B5B6465": {
+        "hierachy": "assembly item type-pin",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.15",
+            "toolType": "pin"
+          }
+        ]
+      }
+    },
+    {
+      "71EC5A6E9F6F0": {
+        "hierachy": "assembly item type-retaining ring",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.16",
+            "toolType": "retaining ring"
+          }
+        ]
+      }
+    },
+    {
+      "71EC56BA2E64E": {
+        "hierachy": "assembly item type-screw thread lining",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.17",
+            "toolType": "screw thread lining"
+          }
+        ]
+      }
+    },
+    {
+      "71EC5A6E85D77": {
+        "hierachy": "assembly item type-sealing ring",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.18",
+            "toolType": "sealing ring"
+          }
+        ]
+      }
+    },
+    {
+      "71EC5A6CFD68B": {
+        "hierachy": "assembly item type-spacer",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.20",
+            "toolType": "spacer"
+          }
+        ]
+      }
+    },
+    {
+      "71EC56BA16ACB": {
+        "hierachy": "assembly item type-spring",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.21",
+            "toolType": "spring"
+          }
+        ]
+      }
+    },
+    {
+      "71EC56E165BC7": {
+        "hierachy": "assembly item type-spring-cup spring",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.21.1",
+            "toolType": "cup spring"
+          }
+        ]
+      }
+    },
+    {
+      "71EC56E106606": {
+        "hierachy": "assembly item type-spring-flat wire compression spring",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.21.2",
+            "toolType": "flat wire compression spring"
+          }
+        ]
+      }
+    },
+    {
+      "71EC56E1C4C7D": {
+        "hierachy": "assembly item type-spring-gas spring",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.21.3",
+            "toolType": "gas spring"
+          }
+        ]
+      }
+    },
+    {
+      "71EC56E04199D": {
+        "hierachy": "assembly item type-spring-helical coil spring",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.21.4",
+            "toolType": "helical coil spring"
+          }
+        ]
+      }
+    },
+    {
+      "71EC56E0D4D19": {
+        "hierachy": "assembly item type-spring-helical disk spring",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.21.5",
+            "toolType": "helical disk spring"
+          }
+        ]
+      }
+    },
+    {
+      "71EC56E223664": {
+        "hierachy": "assembly item type-spring-leaf spring",
+        "classification": "assembly item",
+        "standard": [
+          {
+            "ISO": "5-5.2.21.6",
+            "toolType": "leaf spring"
+          }
+        ]
+      }
+    },
+    {
+      "71D1066F279AD": {
+        "hierachy": "tool item type-cartridge",
+        "classification": "tool item",
+        "standard": [
+          {
+            "ISO": "314-6",
+            "toolType": "ISO-cartridge, type A"
+          }
+        ]
+      }
+    },
+    {
+      "726F59BDC3B08": {
+        "hierachy": "assembly item-collet",
+        "classification": "adaptive item",
+        "standard": [
+          {
+            "ISO": "405-9",
+            "DIN": "93-05",
+            "toolType": "Collet with axial adjustment"
+          },
+          {
+            "ISO": "405-14",
+            "DIN": "93-10",
+            "toolType": "Collet, dead length type"
+          },
+          {
+            "ISO": "405-5",
+            "DIN": "93-01",
+            "toolType": "Double angle collet"
+          },
+          {
+            "ISO": "405-7",
+            "DIN": "93-03",
+            "toolType": "Double angle collet, short"
+          },
+          {
+            "ISO": "405-8",
+            "DIN": "93-04",
+            "toolType": "Collet with elastic segments"
+          },
+          {
+            "ISO": "405-13",
+            "DIN": "93-09",
+            "toolType": "Ferrule"
+          },
+          {
+            "ISO": "405-11",
+            "DIN": "93-07",
+            "toolType": "Draw in collet with retaining thread"
+          },
+          {
+            "ISO": "405-10",
+            "DIN": "93-06",
+            "toolType": "Draw in collet with retaining thread and spanner flats"
+          },
+          {
+            "ISO": "405-6",
+            "DIN": "93-02",
+            "toolType": "Collet with straight shoulder"
+          }
+        ]
+      }
+    },
+    {
+      "71EC56BBA9A2E": {
+        "hierachy": "assembly item-sleeve",
+        "classification": "adaptive item",
+        "standard": [
+          {
+            "ISO": "405-12",
+            "DIN": "93-08",
+            "toolType": "Cylindrical clamping sleeve"
+          }
+        ]
+      }
+    },
+    {
+      "71E01A0E79239": {
+        "hierachy": "threading die-hexagonal die",
+        "classification": "tool item",
+        "standard": [
+          {
+            "ISO": "301-10",
+            "toolType": "Thread cutting die hexagonal shape"
+          }
+        ]
+      }
+    },
+    {
+      "71E01A0E4EE75": {
+        "hierachy": "threading die-cylindrical die",
+        "classification": "tool item",
+        "standard": [
+          {
+            "ISO": "301-9",
+            "toolType": "Thread cutting die round shape"
+          }
+        ]
+      }
+    },
+    {
+      "71E01A06A8A08": {
+        "hierachy": "drill-countersink drill",
+        "classification": "tool item",
+        "standard": [
+          {
+            "ISO": "306-13",
+            "DIN": "86-09",
+            "toolType": "Step drill for adjustable solid drill"
+          },
+          {
+            "ISO": "306-11",
+            "DIN": "86-07",
+            "toolType": "Bell style countersinking tool"
+          },
+          {
+            "ISO": "306-4-CS",
+            "DIN": "86-04",
+            "toolType": "Freeform shape drill"
+          },
+          {
+            "ISO": "306-12",
+            "DIN": "86-08",
+            "toolType": "Reverse countersinking tool"
+          },
+          {
+            "ISO": "306-9",
+            "DIN": "86-05",
+            "toolType": "Step countersinking tool"
+          },
+          {
+            "ISO": "302-15",
+            "DIN": "81-11",
+            "toolType": "Stepped shell countersunk"
+          },
+          {
+            "ISO": "302-14",
+            "DIN": "81-10",
+            "toolType": "Shell countersunk tapered"
+          },
+          {
+            "ISO": "302-9",
+            "DIN": "81-05",
+            "toolType": "stepped countersunk"
+          }
+        ]
+      }
+    },
+    {
+      "71E01A06BF88D": {
+        "hierachy": "drill-counterbore drill",
+        "classification": "tool item",
+        "standard": [
+          {
+            "ISO": "306-8",
+            "toolType": "Face countersinking tool"
+          },
+          {
+            "ISO": "306-4-CB",
+            "toolType": "Freeform shape drill"
+          },
+          {
+            "ISO": "302-8",
+            "DIN": "81-04",
+            "toolType": "Counterbore"
+          },
+          {
+            "ISO": "302-13",
+            "DIN": "81-09",
+            "toolType": "shell counterbore"
+          }
+        ]
+      }
+    },
+    {
+      "71E01A069566C": {
+        "hierachy": "drill-chamfer drill",
+        "classification": "tool item",
+        "standard": [
+          {
+            "ISO": "306-4-CH",
+            "toolType": "Freeform shape drill"
+          },
+          {
+            "ISO": "302-4-CH",
+            "toolType": "Freeform shape drill"
+          }
+        ]
+      }
+    },
+    {
+      "71FAE7AAE8247": {
+        "hierachy": "drill-core drill",
+        "classification": "tool item",
+        "standard": [
+          {
+            "ISO": "306-7",
+            "DIN": "86-03",
+            "toolType": "Core drill"
+          },
+          {
+            "ISO": "302-7",
+            "DIN": "81-03",
+            "toolType": "Core Drill"
+          },
+          {
+            "ISO": "302-12",
+            "DIN": "81-08",
+            "toolType": "Shell core drills"
+          }
+        ]
+      }
+    },
+    {
+      "71E01A065F635": {
+        "hierachy": "drill-deep hole drill",
+        "classification": "tool item",
+        "standard": [
+          {
+            "ISO": "306-4-DH",
+            "toolType": "Freeform shape drill"
+          },
+          {
+            "ISO": "306-14-DH",
+            "toolType": "Twist drills for drilling blades and drilling inserts"
+          },
+          {
+            "ISO": "302-5-DH",
+            "toolType": "Twist Drill"
+          }
+        ]
+      }
+    },
+    {
+      "71E01A067F73C": {
+        "hierachy": "drill-step drill",
+        "classification": "tool item",
+        "standard": [
+          {
+            "ISO": "306-6",
+            "DIN": "86-02",
+            "toolType": "Step drill"
+          },
+          {
+            "ISO": "306-4-ST",
+            "toolType": "Freeform shape drill"
+          },
+          {
+            "ISO": "302-6",
+            "DIN": "81-02",
+            "toolType": "Step drill"
+          }
+        ]
+      }
+    },
+    {
+      "71E01A0769982": {
+        "hierachy": "drill-trepanning drill",
+        "classification": "tool item",
+        "standard": [
+          {
+            "ISO": "306-10",
+            "DIN": "86-06",
+            "toolType": "Trepanning drill"
+          }
+        ]
+      }
+    },
+    {
+      "71E01A0608FE4": {
+        "hierachy": "drill-twist drill",
+        "classification": "tool item",
+        "standard": [
+          {
+            "ISO": "306-5",
+            "DIN": "86-01",
+            "toolType": "Twist drill for indexable inserts"
+          },
+          {
+            "ISO": "306-14",
+            "toolType": "Twist drills for drilling blades and drilling inserts"
+          },
+          {
+            "ISO": "302-5",
+            "DIN": "81-01",
+            "toolType": "Twist Drill"
+          }
+        ]
+      }
+    },
+    {
+      "71E01A073CA28": {
+        "hierachy": "drill-centre drill",
+        "classification": "tool item",
+        "standard": [
+          {
+            "ISO": "302-11",
+            "DIN": "81-07",
+            "toolType": "centre drill"
+          },
+          {
+            "ISO": "302-10",
+            "DIN": "81-06",
+            "toolType": "Spot drill"
+          }
+        ]
+      }
+    },
+    {
+      "72550E1361C6C": {
+        "hierachy": "cutting item type-drilling insert",
+        "classification": "cutting item",
+        "standard": [
+          {
+            "ISO": "203-5",
+            "DIN": "171-01",
+            "toolType": "Replaceable insert with chip flute"
+          },
+          {
+            "ISO": "203-6",
+            "DIN": "171-02",
+            "toolType": "Replaceable insert, flat"
+          },
+          {
+            "ISO": "203-7",
+            "DIN": "171-03",
+            "toolType": "Replaceable insert flatted with chip flute"
+          }
+        ]
+      }
+    },
+    {
+      "71DD68D7A8E5F": {
+        "hierachy": "cutting item type-equilateral equiangular-hexagonal insert",
+        "classification": "cutting item",
+        "standard": [
+          {
+            "ISO": "201-5.1.4-H",
+            "DIN": "76-08",
+            "toolType": "Hexagonal Inserts (H)"
+          }
+        ]
+      }
+    },
+    {
+      "71DDA089C8D1E": {
+        "hierachy": "cutting item type-specific profile insert",
+        "classification": "cutting item",
+        "standard": [
+          {
+            "ISO": "202-5",
+            "DIN": "77-99",
+            "toolType": "User Defined Inserts (X)"
+          },
+          {
+            "ISO": "2.F.10",
+            "DIN": "77-10",
+            "toolType": "full rounded groove"
+          },
+          {
+            "ISO": "2.F.1",
+            "DIN": "77-01",
+            "toolType": "Rectangular Groove"
+          },
+          {
+            "ISO": "2.F.6",
+            "DIN": "77-06",
+            "toolType": "trapezoid groove"
+          },
+          {
+            "ISO": "2.F.8",
+            "DIN": "77-08",
+            "toolType": "trapezoid groove full rounded"
+          },
+          {
+            "ISO": "2.F.9",
+            "toolType": "triangular full rounded groove"
+          },
+          {
+            "ISO": "202-6",
+            "toolType": "Laydown grooving insert"
+          },
+          {
+            "ISO": "202-7.3",
+            "DIN": "77-09",
+            "toolType": "Lay-down threading insert, triangle shape, three cutting edges, three teeth"
+          },
+          {
+            "ISO": "202-7.2",
+            "DIN": "77-09",
+            "toolType": "Lay-down threading insert, triangle shape, three cutting edges, one tooth"
+          },
+          {
+            "ISO": "2.F.2",
+            "DIN": "77-02",
+            "toolType": "rectangular one side full inclined groove"
+          },
+          {
+            "ISO": "2.F.4",
+            "DIN": "77-04",
+            "toolType": "rectangular groove 1 or 2, one side chamfered"
+          },
+          {
+            "ISO": "2.F.5",
+            "DIN": "77-05",
+            "toolType": "rectangular groove 1 or 2, both sides chamfered"
+          },
+          {
+            "ISO": "202-7.5",
+            "DIN": "77-11",
+            "toolType": "Thread chaser"
+          },
+          {
+            "ISO": "202-7",
+            "toolType": "Laydown threading insert, partial thread"
+          },
+          {
+            "ISO": "2.F.7",
+            "DIN": "77-07",
+            "toolType": "trapezoid groove with curved top flat"
+          },
+          {
+            "ISO": "2.F.3",
+            "DIN": "77-03",
+            "toolType": "triangular groove"
+          }
+        ]
+      }
+    },
+    {
+      "71DD68D7CB4FA": {
+        "hierachy": "cutting item type-equilateral equiangular-octagonal insert",
+        "classification": "cutting item",
+        "standard": [
+          {
+            "ISO": "201-5.1.4-O",
+            "DIN": "76-09",
+            "toolType": "Octagonal Inserts (O)"
+          }
+        ]
+      }
+    },
+    {
+      "71DD68D80B094": {
+        "hierachy": "cutting item type-equilateral equiangular-pentagonal insert",
+        "classification": "cutting item",
+        "standard": [
+          {
+            "ISO": "201-5.1.4-P",
+            "DIN": "76-06",
+            "toolType": "Pentagonal Inserts (P)"
+          }
+        ]
+      }
+    },
+    {
+      "71DD68D91938A": {
+        "hierachy": "cutting item type-nonequilateral equiangular-rectangular insert",
+        "classification": "cutting item",
+        "standard": [
+          {
+            "ISO": "201-5.2-L",
+            "DIN": "76-04",
+            "toolType": "Rectangular Inserts (L)"
+          }
+        ]
+      }
+    },
+    {
+      "71DD68D301C30": {
+        "hierachy": "cutting item type-equilateral nonequiangular-rhombic insert",
+        "classification": "cutting item",
+        "standard": [
+          {
+            "ISO": "201-5.1.3",
+            "DIN": "76-03",
+            "toolType": "Rhombic-Rhombical Inserts"
+          },
+          {
+            "ISO": "201-5.1.3-D",
+            "DIN": "76-03",
+            "toolType": "Rhombic-Rhombical Inserts (D)"
+          },
+          {
+            "ISO": "201-5.1.3-E",
+            "DIN": "76-03",
+            "toolType": "Rhombic-Rhombical Inserts (E)"
+          },
+          {
+            "ISO": "201-5.1.3-F",
+            "DIN": "76-03",
+            "toolType": "Rhombic-Rhombical Inserts (F)"
+          },
+          {
+            "ISO": "201-5.1.3-G",
+            "DIN": "76-03",
+            "toolType": "Rhombic-Rhombical Inserts (G)"
+          },
+          {
+            "ISO": "201-5.1.3-M",
+            "DIN": "76-03",
+            "toolType": "Rhombic-Rhombical Inserts (M)"
+          },
+          {
+            "ISO": "201-5.1.3-V",
+            "DIN": "76-03",
+            "toolType": "Rhombic-Rhombical Inserts (V)"
+          }
+        ]
+      }
+    },
+    {
+      "71DD68D966F52": {
+        "hierachy": "cutting item type-nonequilateral nonequiangular-parallelogram insert",
+        "classification": "cutting item",
+        "standard": [
+          {
+            "ISO": "201-5.2",
+            "DIN": "76-05",
+            "toolType": "Rhomboidal Inserts"
+          },
+          {
+            "ISO": "201-5.2-B",
+            "DIN": "76-05",
+            "toolType": "Rhomboidal Inserts (B)"
+          },
+          {
+            "ISO": "201-5.2-K",
+            "DIN": "76-05",
+            "toolType": "Rhomboidal Inserts (K)"
+          },
+          {
+            "ISO": "201-5.2-N",
+            "DIN": "76-05",
+            "toolType": "Rhomboidal Inserts (N)"
+          }
+        ]
+      }
+    },
+    {
+      "71D1AA6635E76": {
+        "hierachy": "cutting item type-round insert",
+        "classification": "cutting item",
+        "standard": [
+          {
+            "ISO": "201-5.3-R",
+            "DIN": "76-10",
+            "toolType": "Round Inserts (R)"
+          }
+        ]
+      }
+    },
+    {
+      "71DD68D829217": {
+        "hierachy": "cutting item type-equilateral equiangular-square insert",
+        "classification": "cutting item",
+        "standard": [
+          {
+            "ISO": "201-5.1.3-S",
+            "DIN": "76-02",
+            "toolType": "Square Inserts (S)"
+          }
+        ]
+      }
+    },
+    {
+      "71DD68D8446CE": {
+        "hierachy": "cutting item type-equilateral equiangular-triangular insert",
+        "classification": "cutting item",
+        "standard": [
+          {
+            "ISO": "201-5.1.2-T",
+            "DIN": "76-01",
+            "toolType": "Triangular Inserts (T)"
+          }
+        ]
+      }
+    },
+    {
+      "71DD68D73218C": {
+        "hierachy": "cutting item type-equilateral nonequiangular-trigon insert",
+        "classification": "cutting item",
+        "standard": [
+          {
+            "ISO": "201-5.1.5-W",
+            "DIN": "76-07",
+            "toolType": "Trigonometrical Inserts (W)"
+          }
+        ]
+      }
+    },
+    {
+      "71E01A05D27A8": {
+        "hierachy": "mil-end mill",
+        "classification": "tool item",
+        "standard": [
+          {
+            "ISO": "307-16",
+            "DIN": "87-10 02",
+            "toolType": "Angular ball-nosed end mill"
+          },
+          {
+            "ISO": "307-12",
+            "DIN": "87-07",
+            "toolType": "Angular end mill, non-centre cutting, multiple rows"
+          },
+          {
+            "ISO": "307-18",
+            "DIN": "87-12",
+            "toolType": "Bell style end mill"
+          },
+          {
+            "ISO": "307-13",
+            "DIN": "87-08",
+            "toolType": "End mill, centre cutting, multiple rows"
+          },
+          {
+            "ISO": "307-4-CH",
+            "toolType": "Freeform shape end mill"
+          },
+          {
+            "ISO": "307-17",
+            "DIN": "87-11",
+            "toolType": "Die and mold end mill"
+          },
+          {
+            "ISO": "307-7",
+            "DIN": "87-02",
+            "toolType": "Single row non-centre cutting dovetail end mill"
+          },
+          {
+            "ISO": "307-4-HF",
+            "toolType": "Freeform shape end mill"
+          },
+          {
+            "ISO": "307-11",
+            "DIN": "87-06",
+            "toolType": "End mill, non-centre cutting, multiple rows"
+          },
+          {
+            "ISO": "307-5",
+            "DIN": "87-01",
+            "toolType": "End mill, non-centre cutting, single row"
+          },
+          {
+            "ISO": "307-9",
+            "DIN": "87-04",
+            "toolType": "Single row, rounded end mill"
+          },
+          {
+            "ISO": "307-14",
+            "DIN": "87-09",
+            "toolType": "Spot facing end mill"
+          },
+          {
+            "ISO": "307-15",
+            "DIN": "87-10 01",
+            "toolType": "Straight ball-nosed end mill"
+          },
+          {
+            "ISO": "307-6",
+            "DIN": "87-02",
+            "toolType": "Single row non-centre cutting V-groove end mill"
+          },
+          {
+            "ISO": "303-10",
+            "DIN": "82-06",
+            "toolType": "Ball-nosed end mill"
+          },
+          {
+            "ISO": "303-6",
+            "DIN": "82-02",
+            "toolType": "Centre cutting end mill"
+          },
+          {
+            "ISO": "303-2",
+            "DIN": "82-02",
+            "toolType": "Centre cutting end mill"
+          },
+          {
+            "ISO": "303-4-CH",
+            "toolType": "Freeform shape end mill"
+          },
+          {
+            "ISO": "303-4-CCV",
+            "toolType": "Freeform shape end mill"
+          },
+          {
+            "ISO": "303-12",
+            "DIN": "82-08",
+            "toolType": "Rounded profile end mill, concave"
+          },
+          {
+            "ISO": "303-11",
+            "DIN": "82-07",
+            "toolType": "Die end mill"
+          },
+          {
+            "ISO": "303-4",
+            "DIN": "82-04",
+            "toolType": "Dovetail end mill"
+          },
+          {
+            "ISO": "303-8",
+            "DIN": "82-04",
+            "toolType": "Dovetail end mill"
+          },
+          {
+            "ISO": "303-4-FC",
+            "toolType": "Freeform shape end mill"
+          },
+          {
+            "ISO": "303-4-HF",
+            "toolType": "Freeform shape end mill"
+          },
+          {
+            "ISO": "303-5",
+            "DIN": "82-01",
+            "toolType": "Non centre cutting end mill"
+          },
+          {
+            "ISO": "303-1",
+            "DIN": "82-01",
+            "toolType": "Non centre cutting end mill"
+          },
+          {
+            "ISO": "303-14",
+            "DIN": "82-11",
+            "toolType": "Cutting stylus-Engraving tool"
+          },
+          {
+            "ISO": "303-7",
+            "DIN": "82-03",
+            "toolType": "Angular end mill (V-groove)"
+          },
+          {
+            "ISO": "303-3",
+            "DIN": "82-03",
+            "toolType": "Angular end mill (V-groove)"
+          }
+        ]
+      }
+    },
+    {
+      "71EF07E083383": {
+        "hierachy": "mil-threading grooving mill",
+        "classification": "tool item",
+        "standard": [
+          {
+            "ISO": "308-4-TH",
+            "DIN": "88-04",
+            "toolType": "Bell style thread milling cutter"
+          },
+          {
+            "ISO": "307-4-GR",
+            "toolType": "Freeform shape end mill"
+          },
+          {
+            "ISO": "308-4-GR",
+            "toolType": "Freeform shape milling cutter"
+          },
+          {
+            "ISO": "307-10",
+            "DIN": "87-05",
+            "toolType": "Threading end mill"
+          },
+          {
+            "ISO": "303-4-GR",
+            "toolType": "Freeform shape end mill"
+          },
+          {
+            "ISO": "303-13",
+            "DIN": "82-10",
+            "toolType": "Thread end mill"
+          },
+          {
+            "ISO": "303-15",
+            "DIN": "82-12",
+            "toolType": "Thread end mill with drilling part"
+          },
+          {
+            "ISO": "304-4-GR",
+            "toolType": "Freeform shape milling cutter"
+          },
+          {
+            "ISO": "304-7",
+            "DIN": "83-03",
+            "toolType": "Thread milling cutter"
+          }
+        ]
+      }
+    },
+    {
+      "71E01A05B627B": {
+        "hierachy": "mil-face mill",
+        "classification": "tool item",
+        "standard": [
+          {
+            "ISO": "308-5",
+            "DIN": "88-01",
+            "toolType": "Face milling cutter"
+          },
+          {
+            "ISO": "308-6",
+            "DIN": "88-02",
+            "toolType": "Shoulder milling cutter"
+          },
+          {
+            "ISO": "308-8",
+            "toolType": "shell milling cutter"
+          },
+          {
+            "ISO": "304-6",
+            "DIN": "83-02",
+            "toolType": "Shell mill"
+          }
+        ]
+      }
+    },
+    {
+      "71EF07E037025": {
+        "hierachy": "mil-slotting cutter",
+        "classification": "tool item",
+        "standard": [
+          {
+            "ISO": "308-12",
+            "DIN": "88-08",
+            "toolType": "Full side angular slot milling cutter"
+          },
+          {
+            "ISO": "308-9",
+            "DIN": "88-05",
+            "toolType": "Full side slot milling cutter"
+          },
+          {
+            "ISO": "308-11",
+            "DIN": "88-07",
+            "toolType": "Full side profile slot milling cutter"
+          },
+          {
+            "ISO": "308-10",
+            "DIN": "88-06",
+            "toolType": "Half-side slot milling cutter"
+          },
+          {
+            "ISO": "308-13",
+            "DIN": "88-09",
+            "toolType": "Saw blade- slitting cutter"
+          },
+          {
+            "ISO": "307-8",
+            "DIN": "87-03",
+            "toolType": "T-slot end mill"
+          },
+          {
+            "ISO": "303-5",
+            "DIN": "82-05",
+            "toolType": "T-Slot end mill"
+          },
+          {
+            "ISO": "303-9",
+            "DIN": "82-05",
+            "toolType": "T-Slot end mill"
+          },
+          {
+            "ISO": "304-14",
+            "DIN": "83-10",
+            "toolType": "Angular milling cutter"
+          },
+          {
+            "ISO": "304-15",
+            "DIN": "83-11",
+            "toolType": "Angular profile milling cutter"
+          },
+          {
+            "ISO": "304-11",
+            "DIN": "83-07",
+            "toolType": "Concave profile cutter"
+          },
+          {
+            "ISO": "304-12",
+            "DIN": "83-08",
+            "toolType": "Convex profile cutter"
+          },
+          {
+            "ISO": "304-13",
+            "DIN": "83-09",
+            "toolType": "Corner-rounding cutter"
+          },
+          {
+            "ISO": "304-10",
+            "DIN": "83-06",
+            "toolType": "Flatted profile slotting cutter"
+          },
+          {
+            "ISO": "304-9",
+            "DIN": "83-05",
+            "toolType": "Pointed profile slotting cutter"
+          },
+          {
+            "ISO": "304-16",
+            "DIN": "83-13",
+            "toolType": "Sawing blade"
+          },
+          {
+            "ISO": "304-8",
+            "DIN": "83-04",
+            "toolType": "Slotting cutter"
+          }
+        ]
+      }
+    },
+    {
+      "71E01A0540BE7": {
+        "hierachy": "mil-slab mill",
+        "classification": "tool item",
+        "standard": [
+          {
+            "ISO": "308-7",
+            "DIN": "88-03",
+            "toolType": "Plain milling cutter"
+          },
+          {
+            "ISO": "304-5",
+            "DIN": "83-01",
+            "toolType": "Plain milling cutter"
+          }
+        ]
+      }
+    },
+    {
+      "71E02C544BABE": {
+        "hierachy": "tool item type-burr tool",
+        "classification": "tool item",
+        "standard": [
+          {
+            "ISO": "313-5",
+            "toolType": "Burr"
+          }
+        ]
+      }
+    },
+    {
+      "71E01A07ECCCF": {
+        "hierachy": "ream-profile reamer",
+        "classification": "tool item",
+        "standard": [
+          {
+            "ISO": "312-8",
+            "DIN": "127-04",
+            "toolType": "Bell style reamer"
+          },
+          {
+            "ISO": "312-9",
+            "DIN": "127-05",
+            "toolType": "Shell reamer"
+          },
+          {
+            "ISO": "311-8",
+            "DIN": "126-04",
+            "toolType": "Bell style reamer"
+          },
+          {
+            "ISO": "311-9",
+            "DIN": "126-05",
+            "toolType": "Shell reamer"
+          }
+        ]
+      }
+    },
+    {
+      "71E01A07BC535": {
+        "hierachy": "ream-cylindrical reamer",
+        "classification": "tool item",
+        "standard": [
+          {
+            "ISO": "312-5",
+            "DIN": "127-01",
+            "toolType": "Cylindrical reamer"
+          },
+          {
+            "ISO": "311-5",
+            "DIN": "126-01",
+            "toolType": "Cylindrical reamer"
+          }
+        ]
+      }
+    },
+    {
+      "71E01A07FF350": {
+        "hierachy": "ream-stepped reamer",
+        "classification": "tool item",
+        "standard": [
+          {
+            "ISO": "312-7",
+            "DIN": "127-03",
+            "toolType": "Stepped (profile) reamer"
+          },
+          {
+            "ISO": "311-7",
+            "DIN": "126-03",
+            "toolType": "Stepped reamer"
+          }
+        ]
+      }
+    },
+    {
+      "71E01A07D2A1B": {
+        "hierachy": "ream-tapered reamer",
+        "classification": "tool item",
+        "standard": [
+          {
+            "ISO": "312-6",
+            "DIN": "127-02",
+            "toolType": "Tapered reamer"
+          },
+          {
+            "ISO": "311-6",
+            "DIN": "126-02",
+            "toolType": "Tapered reamer"
+          }
+        ]
+      }
+    },
+    {
+      "71E0251F304E1": {
+        "hierachy": "tool item type-rotating borer",
+        "classification": "tool item",
+        "standard": [
+          {
+            "ISO": "305-6.1",
+            "toolType": "Adjustable unit"
+          },
+          {
+            "ISO": "305-5.6",
+            "toolType": "Balance weight"
+          },
+          {
+            "ISO": "305-5.3",
+            "toolType": "Bridge tool"
+          },
+          {
+            "ISO": "305-7.11",
+            "toolType": "Boring head with adjustable unit"
+          },
+          {
+            "ISO": "305-5.1",
+            "toolType": "Monoblock extension bridges with adaptor"
+          },
+          {
+            "ISO": "305-7.9",
+            "toolType": "Boring head"
+          },
+          {
+            "ISO": "305-5.5",
+            "toolType": "Slide element"
+          }
+        ]
+      }
+    },
+    {
+      "71E01A0E34C7F": {
+        "hierachy": "threading tap-conical tap",
+        "classification": "tool item",
+        "standard": [
+          {
+            "ISO": "301-4-CN",
+            "toolType": "Freeform shape tap with offset shank"
+          }
+        ]
+      }
+    },
+    {
+      "71E01A0A5355D": {
+        "hierachy": "threading tap-cylindrical tap",
+        "classification": "tool item",
+        "standard": [
+          {
+            "ISO": "301-7",
+            "DIN": "80-03",
+            "toolType": "Cold forming tap with offset shank"
+          },
+          {
+            "ISO": "301-8",
+            "DIN": "80-04",
+            "toolType": "Cold forming tap with reinforced shank"
+          },
+          {
+            "ISO": "301-5",
+            "DIN": "80-01",
+            "toolType": "Screwing tap with offset shank"
+          },
+          {
+            "ISO": "301-6",
+            "DIN": "80-02",
+            "toolType": "Screwing tap with reinforced shank"
+          }
+        ]
+      }
+    },
+    {
+      "71E01A0E85121": {
+        "hierachy": "turning-prismatic tool holder",
+        "classification": "tool item",
+        "standard": [
+          {
+            "ISO": "309-8.2",
+            "DIN": "90-04",
+            "toolType": "Turning tool for axial grooving"
+          },
+          {
+            "ISO": "309-5.1",
+            "DIN": "90-01",
+            "toolType": "Tool holder for longitudinal and transversal turning"
+          },
+          {
+            "ISO": "309-6",
+            "DIN": "90-02",
+            "toolType": "Turning tool for external threading"
+          },
+          {
+            "ISO": "309-8",
+            "DIN": "90-04",
+            "toolType": "Turning tool for OD grooving and parting"
+          },
+          {
+            "ISO": "310-6",
+            "toolType": "Solid tool for longitudinal and transversal turning"
+          },
+          {
+            "ISO": "310-7-A",
+            "toolType": "Solid turning tool for axial grooving"
+          },
+          {
+            "ISO": "310-7",
+            "toolType": "Solid turning tool for external grooving"
+          },
+          {
+            "ISO": "310-7-I",
+            "toolType": "Solid turning tool for internal grooving"
+          },
+          {
+            "ISO": "310-7-ETH",
+            "toolType": "Solid turning tool for external threading"
+          },
+          {
+            "ISO": "310-7-ITH",
+            "toolType": "Solid turning tool for internal threading"
+          }
+        ]
+      }
+    },
+    {
+      "71E01A0E9CBA9": {
+        "hierachy": "turning-boring bar",
+        "classification": "tool item",
+        "standard": [
+          {
+            "ISO": "309-9",
+            "toolType": "Boring bar for axial grooving"
+          },
+          {
+            "ISO": "309-5.6",
+            "DIN": "90-01",
+            "toolType": "Tool holder for longitudinal and transversal turning"
+          },
+          {
+            "ISO": "309-7",
+            "DIN": "90-03",
+            "toolType": "Boring bar for internal threading"
+          },
+          {
+            "ISO": "309-10",
+            "DIN": "90-07",
+            "toolType": "Pull back boring bar"
+          },
+          {
+            "ISO": "310-13",
+            "toolType": "Solid tool for longitudinal and transversal turning"
+          },
+          {
+            "ISO": "310-13-B",
+            "toolType": "Pull back solid turning tool"
+          },
+          {
+            "ISO": "310-13-AGR",
+            "toolType": "Solid turning tool for axial grooving"
+          },
+          {
+            "ISO": "310-13-EGR",
+            "toolType": "Solid turning tool for external grooving"
+          },
+          {
+            "ISO": "310-13-IGR",
+            "toolType": "Solid turning tool for internal grooving"
+          },
+          {
+            "ISO": "310-13-ETH",
+            "toolType": "Solid turning tool for external threading"
+          },
+          {
+            "ISO": "310-13-ITH",
+            "toolType": "Solid turning tool for internal threading"
+          }
+        ]
+      }
+    },
+    {
+      "71E01A0EAF067": {
+        "hierachy": "turning-system tool",
+        "classification": "tool item",
+        "standard": [
+          {
+            "ISO": "309-15.2",
+            "DIN": "90-12",
+            "toolType": "Axial Grooving"
+          },
+          {
+            "ISO": "309-11",
+            "DIN": "90-08",
+            "toolType": "System tool for external turning"
+          },
+          {
+            "ISO": "309-12",
+            "DIN": "90-09",
+            "toolType": "System tool for external threading"
+          },
+          {
+            "ISO": "309-16",
+            "DIN": "90-13",
+            "toolType": "System tool for ID grooving"
+          },
+          {
+            "ISO": "309-13",
+            "DIN": "90-10",
+            "toolType": "System tool for internal turning"
+          },
+          {
+            "ISO": "309-14",
+            "DIN": "90-11",
+            "toolType": "System tool for internal threading"
+          },
+          {
+            "ISO": "309-18",
+            "DIN": "90-14",
+            "toolType": "System tool, neutral design for OD turning"
+          },
+          {
+            "ISO": "309-15",
+            "DIN": "90-12",
+            "toolType": "System tool for OD grooving and parting"
+          },
+          {
+            "ISO": "309-17",
+            "DIN": "90-14",
+            "toolType": "System tool for pull back machining"
+          }
+        ]
+      }
+    }
+  ]

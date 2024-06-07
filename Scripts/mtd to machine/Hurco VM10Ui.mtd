@@ -1,0 +1,102 @@
+<?xml version="1.0" ?>
+<!-- *******************************************************-->
+<!-- Machine Tool Manufacturer	: Hurco					    -->
+<!-- Machine Tool Model			: Hurco_VM10Ui      	    -->
+<!-- Machine Tool Type			: 5-Axis Mill			    -->
+<!-- Machine Tool Configuration	: 5-axis Table-Table 		-->
+<!-- Linear Axis Limits			: Xmin -266.5  Xmax +266.5 	-->
+<!--							: Ymin -203    Ymax +203   	-->
+<!--							: Zmin -483    Zmax 0   	-->
+<!-- Rotary Axial Limits		: Amin -110    Amax +30    	-->
+<!--							: Bmin         Bmax     	-->
+<!--							: Cmin -inf    Cmax +inf   	-->
+<!-- Component Tolerance		:      0.025;0.05;0.25      -->
+<!-- *******************************************************-->
+<!-- 				Who			: Nishok.G                  -->
+<!-- 				When		: 12.03.2024 			    -->
+<!-- 				Checked By 	: 							-->
+<!-- 				Checked		: 						    -->
+<!-- 				Revision 	: 1.000 				    -->
+<!-- *******************************************************-->
+<!-- Hurco_VM10Ui -->
+
+<machine xmlns="x-schema:PowermillMachineTool" POST="pmpMultiaxis.*">
+
+<table_attach_point PART="table" X="0" Y="0" Z="0" />
+<head_attach_point PART="head" X="0" Y="0" Z="519" I="0" J="0" K="1" />
+  
+<!-- Static parts -->
+	<machine_part>
+		<model_list>
+			<dmt_file>
+				<path FILE="Hurco_VM10Ui/static.dmt" />
+				<rgb R="80" G="80" B="80" />
+			</dmt_file>
+		</model_list>
+	</machine_part>
+<!-- The table -->
+	<machine_part>
+		<axis>
+			<control_info ADDRESS="Y" VALUE="0" MIN="-203" MAX="203" />
+			<simple_linear I="0" J="1" K="0" />
+		</axis>
+			<model_list>
+				<dmt_file>
+					<path FILE="Hurco_VM10Ui/y_axis_table.dmt" />
+					<rgb R="150" G="150" B="150" />
+				</dmt_file>
+			</model_list>
+		<machine_part>
+			<axis>
+				<control_info ADDRESS="X" VALUE="0" MIN="-266.5" MAX="266.5"/>
+				<simple_linear I="1" J="0" K="0" />
+			</axis>
+				<model_list>
+					<dmt_file>
+						<path FILE="Hurco_VM10Ui/x_axis_table.dmt" />
+						<rgb R="120" G="120" B="120" />
+					</dmt_file>
+				</model_list>
+	        <machine_part>
+	        	<axis>
+			        <control_info ADDRESS="A" VALUE="0" MIN="-110" MAX="30" />
+			        <simple_rotary X="0" Y="0" Z="25" I="-1" J="0" K="0" />
+		        </axis>
+			        <model_list>
+				        <dmt_file>
+				        	<path FILE="Hurco_VM10Ui/a_axis_table.dmt" />
+				        	<rgb R="155" G="155" B="155" />
+			        	</dmt_file>
+			        </model_list>
+		        <machine_part>
+		         	<axis>
+		        		<control_info ADDRESS="C" VALUE="0" />
+			        	<simple_rotary X="0" Y="0" Z="0" I="0" J="0" K="-1" />
+			        </axis>
+			        	<model_list>
+				        	<dmt_file>
+				         		<path FILE="Hurco_VM10Ui/c_axis_table.dmt" />
+					         	<rgb R="250" G="250" B="250" />
+					        </dmt_file>
+			         	</model_list>
+		         	    <machine_part NAME="table"/>
+		       </machine_part>
+			</machine_part>
+		</machine_part>
+	</machine_part>
+<!-- The head -->
+
+<machine_part>
+	<axis>
+		<control_info ADDRESS="Z" VALUE="555" MIN="45" MAX="555" />
+		<simple_linear I="0" J="0" K="1" />
+	</axis>
+		<model_list>
+			<dmt_file>
+			    <path FILE="Hurco_VM10Ui/z_axis_head.dmt" />
+				<rgb R="190" G="190" B="190" />
+			</dmt_file>
+		</model_list>
+	<machine_part NAME="head" />
+</machine_part>
+</machine>

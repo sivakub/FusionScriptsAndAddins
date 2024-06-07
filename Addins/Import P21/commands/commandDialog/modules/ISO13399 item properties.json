@@ -1,0 +1,735 @@
+{
+    "ToolProperties": [
+        {
+            "BSU": "71D0793ECEF9A",
+            "PropertyName": "a dimension on lf"
+        },
+        {
+            "BSU": "71CF299431CAC",
+            "PropertyName": "a dimension on wf"
+        },
+        {
+            "BSU": "71EBBA9E78025",
+            "PropertyName": "adjustability"
+        },
+        {
+            "BSU": "71D07543FD182",
+            "PropertyName": "axial groove outside diameter maximum"
+        },
+        {
+            "BSU": "71CF299354332",
+            "PropertyName": "axial groove outside diameter minimum"
+        },
+        {
+            "BSU": "71DF151EA5CF1",
+            "PropertyName": "balance quality code"
+        },
+        {
+            "BSU": "71EAC0CAB861F",
+            "PropertyName": "balanced by design"
+        },
+        {
+            "BSU": "71CF2992DBC44",
+            "PropertyName": "blade reinforcement radius"
+        },
+        {
+            "BSU": "71EAC81F88336",
+            "PropertyName": "body clearance depth"
+        },
+        {
+            "BSU": "71ED6A9AF7D1D",
+            "PropertyName": "body diameter"
+        },
+        {
+            "BSU": "71D08462F8185",
+            "PropertyName": "body diameter maximum"
+        },
+        {
+            "BSU": "71EAC472BD116",
+            "PropertyName": "body half taper angle"
+        },
+        {
+            "BSU": "71EBB332C60EB",
+            "PropertyName": "body height"
+        },
+        {
+            "BSU": "71ED6AA478A3D",
+            "PropertyName": "body length",
+            "Symbol": "LB",
+            "Fusion": "shoulder-length"
+        },
+        {
+            "BSU": "71DCD3B16750B",
+            "PropertyName": "body length maximum",
+            "Symbol": "LBX",
+            "Fusion": "shoulder-length"
+        },
+        {
+            "BSU": "71DF1523224D8",
+            "PropertyName": "body material code",
+            "Symbol": "BMC",
+            "Fusion": "BMC"
+        },
+        {
+            "BSU": "71EBB33230236",
+            "PropertyName": "body width"
+        },
+        {
+            "BSU": "71DF1523869EE",
+            "PropertyName": "burr type code"
+        },
+        {
+            "BSU": "71DF1523EE184",
+            "PropertyName": "cartridge size code"
+        },
+        {
+            "BSU": "71EBAF896BE9A",
+            "PropertyName": "clamping length"
+        },
+        {
+            "BSU": "71ED6E54B15C4",
+            "PropertyName": "clamping length maximum"
+        },
+        {
+            "BSU": "71EBB339ED2BD",
+            "PropertyName": "clamping length minimum"
+        },
+        {
+            "BSU": "71CF298EEB4F5",
+            "PropertyName": "clamping type code"
+        },
+        {
+            "BSU": "71EBAF85006BD",
+            "PropertyName": "clamping width"
+        },
+        {
+            "BSU": "71EAC83CD450B",
+            "PropertyName": "clearance angle axial"
+        },
+        {
+            "BSU": "71ED6E5CD0DAE",
+            "PropertyName": "clearance angle normal"
+        },
+        {
+            "BSU": "71D08418C3B4D",
+            "PropertyName": "clearance angle orthogonal"
+        },
+        {
+            "BSU": "71EAC83B73825",
+            "PropertyName": "clearance angle radial"
+        },
+        {
+            "BSU": "71DD703B84298",
+            "PropertyName": "coating property"
+        },
+        {
+            "BSU": "71EAC48CAD407",
+            "PropertyName": "connection bore depth"
+        },
+        {
+            "BSU": "71E01D92C41E8",
+            "PropertyName": "connection bore diameter"
+        },
+        {
+            "BSU": "71D102AE3B252",
+            "PropertyName": "connection code machine side",
+            "Symbol":"CCMS"
+
+        },
+        {
+            "BSU": "71D102AE8A5A9",
+            "PropertyName": "connection code workpiece side",
+            "Symbol":"CCWS"
+        },
+        {
+            "BSU": "71EDD2C17746F",
+            "PropertyName": "connection count workpiece side"
+        },
+        {
+            "BSU": "71EBDBF5060E6",
+            "PropertyName": "connection diameter",
+            "Fusion": "SFDM",
+            "Symbol" : "DCON"
+        },
+        {
+            "BSU": "71CF298A76B66",
+            "PropertyName": "connection retention knob thread size"
+        },
+        {
+            "BSU": "71FC193318002",
+            "PropertyName": "connection size code",
+            "Symbol":"CZC"
+        },
+        {
+            "BSU": "71ED6E16D5978",
+            "PropertyName": "connection unit basis"
+        },
+        {
+            "BSU": "71D087D97FCE3",
+            "PropertyName": "contact surface diameter machine side"
+        },
+        {
+            "BSU": "71EBB342CC751",
+            "PropertyName": "coolant supply property",
+            "Symbol": "CSP"
+        },
+        {
+            "BSU": "71CEAEBD5A66A",
+            "PropertyName": "cutting depth maximum",
+            "Symbol":"CDX"
+        },
+        {
+            "BSU": "71D084653E57F",
+            "PropertyName": "cutting diameter",
+            "Fusion" : "DC",
+            "Symbol" : "DC"
+        },
+        {
+            "BSU": "71DD6C8ACA503",
+            "PropertyName": "corner radius",
+            "Symbol" : "RE"
+        },
+        {
+            "BSU": "71D0846545C4E",
+            "PropertyName": "cutting diameter internal"
+        },
+        {
+            "BSU": "71D0846570977",
+            "PropertyName": "cutting diameter internal maximum"
+        },
+        {
+            "BSU": "71D084655A2F7",
+            "PropertyName": "cutting diameter internal minimum"
+        },
+        {
+            "BSU": "71D084656CE32",
+            "PropertyName": "cutting diameter maximum"
+        },
+        {
+            "BSU": "71D0846556288",
+            "PropertyName": "cutting diameter minimum"
+        },
+        {
+            "BSU": "71DF1527D828C",
+            "PropertyName": "cutting diameter size code"
+        },
+        {
+            "BSU": "71DCD0033973E",
+            "PropertyName": "cutting edge centre count"
+        },
+        {
+            "BSU": "71DCD00CBBC2A",
+            "PropertyName": "cutting end count"
+        },
+        {
+            "BSU": "71DF8C52B8926",
+            "PropertyName": "cutting item count"
+        },
+        {
+            "BSU": "71CF299287FD3",
+            "PropertyName": "cutting length at minimum bore diameter"
+        },
+        {
+            "BSU": "71DF15283219C",
+            "PropertyName": "cutting pitch density"
+        },
+        {
+            "BSU": "71DF152D8CF7D",
+            "PropertyName": "cutting pitch differential"
+        },
+        {
+            "BSU": "71CEAEBE2B825",
+            "PropertyName": "cutting width"
+        },
+        {
+            "BSU": "71D07569F8BC3",
+            "PropertyName": "cutting width maximum"
+        },
+        {
+            "BSU": "71D0756A28B42",
+            "PropertyName": "cutting width minimum"
+        },
+        {
+            "BSU": "71CED03D70452",
+            "PropertyName": "damping property"
+        },
+        {
+            "BSU": "71CF29869CA0F",
+            "PropertyName": "data chip provision"
+        },
+        {
+            "BSU": "71D07576C0558",
+            "PropertyName": "depth of cut maximum",
+            "Symbol" : "APMX",
+            "Fusion": "LCF"
+        },
+        {
+            "BSU": "71CF2993DC583",
+            "PropertyName": "design configuration style code"
+        },
+        {
+            "BSU": "71EAC81AD9AE1",
+            "PropertyName": "drill back taper"
+        },
+        {
+            "BSU": "71D08096F930C",
+            "PropertyName": "drive angle"
+        },
+        {
+            "BSU": "71E0306423B2A",
+            "PropertyName": "drive count"
+        },
+        {
+            "BSU": "71EAC49F75413",
+            "PropertyName": "drop head design"
+        },
+        {
+            "BSU": "71DCD00239812",
+            "PropertyName": "face effective cutting edge count"
+        },
+        {
+            "BSU": "71DCD0029BBE7",
+            "PropertyName": "face mounted insert count"
+        },
+        {
+            "BSU": "71DCCFEBB883E",
+            "PropertyName": "flute count",
+            "Symbol": "NOF",
+            "Fusion": "NOF"
+        },
+        {
+            "BSU": "71DCCFEC645BD",
+            "PropertyName": "flute design code"
+        },
+        {
+            "BSU": "71DCCFEC20115",
+            "PropertyName": "flute helix angle",
+            "Symbol": "FHA"
+        },
+        {
+            "BSU": "71DCCFF654756",
+            "PropertyName": "flute helix hand",
+            "Symbol":"FHH"
+        },
+        {
+            "BSU": "71DCCFF6A1A13",
+            "PropertyName": "flute helix pitch"
+        },
+        {
+            "BSU": "71EAC8210DF36",
+            "PropertyName": "fluted land width"
+        },
+        {
+            "BSU": "71CF29994E737",
+            "PropertyName": "functional height",
+            "Symbol":"HF"
+        },
+        {
+            "BSU": "71DCD39338974",
+            "PropertyName": "functional length",
+            "Symbol": "LF",
+            "fusion": "OAL"
+        },
+        {
+            "BSU": "71EBC1EB8456A",
+            "PropertyName": "functional length minimum",
+            "Symbol": "LFN"
+        },
+        {
+            "BSU": "71D078F5BEDBE",
+            "PropertyName": "functional length secondary"
+        },
+        {
+            "BSU": "71CF29984CDA7",
+            "PropertyName": "functional width"
+        },
+        {
+            "BSU": "71D193F495583",
+            "PropertyName": "functional width 2"
+        },
+        {
+            "BSU": "71CF299874B1E",
+            "PropertyName": "functional width secondary"
+        },
+        {
+            "BSU": "71CF298FB10E4",
+            "PropertyName": "groove depth minimum bore diameter"
+        },
+        {
+            "BSU": "71EE070696F08",
+            "PropertyName": "guide element property"
+        },
+        {
+            "BSU": "71ED6A7A6E6A2",
+            "PropertyName": "guide pilot diameter"
+        },
+        {
+            "BSU": "71CF29872F0AB",
+            "PropertyName": "hand",
+            "Symbol": "HAND",
+            "Fusion" : "HAND"
+        },
+        {
+            "BSU": "71D075730A82B",
+            "PropertyName": "head back offset length"
+        },
+        {
+            "BSU": "71D075731F172",
+            "PropertyName": "head back offset width"
+        },
+        {
+            "BSU": "71CF298F073D3",
+            "PropertyName": "head bottom offset height"
+        },
+        {
+            "BSU": "71CF298F4E487",
+            "PropertyName": "head bottom offset length"
+        },
+        {
+            "BSU": "71E03062EC034",
+            "PropertyName": "head diameter"
+        },
+        {
+            "BSU": "71D07574A61E8",
+            "PropertyName": "head length",
+            "Symbol": "LH",
+            "Fusion": "shoulder-length"
+        },
+        {
+            "BSU": "71D087D3B17B0",
+            "PropertyName": "hub diameter",
+            "Symbol":"DHUB"
+        },
+        {
+            "BSU": "71DF5C078FF46",
+            "PropertyName": "hub property"
+        },
+        {
+            "BSU": "71D087D3F5E07",
+            "PropertyName": "hub thickness"
+        },
+        {
+            "BSU": "71D075754F8A3",
+            "PropertyName": "inclination angle"
+        },
+        {
+            "BSU": "71DF1538E7378",
+            "PropertyName": "insert adjustable count"
+        },
+        {
+            "BSU": "71CE7A9936610",
+            "PropertyName": "insert interface code"
+        },
+        {
+            "BSU": "71CEAEBF2A69F",
+            "PropertyName": "insert seat size code"
+        },
+        {
+            "BSU": "71DF1526AC952",
+            "PropertyName": "overlapping capability"
+        },
+        {
+            "BSU": "71DF5C0761888",
+            "PropertyName": "keyway property"
+        },
+        {
+            "BSU": "71DCCC27DEF53",
+            "PropertyName": "length chip flute"
+        },
+        {
+            "BSU": "71CF298FDE0EF",
+            "PropertyName": "master insert identification"
+        },
+        {
+            "BSU": "71D07543367C5",
+            "PropertyName": "minimum bore diameter"
+        },
+        {
+            "BSU": "71EAC0F064E2D",
+            "PropertyName": "mounting hole angle"
+        },
+        {
+            "BSU": "71EAC0E9FA4CD",
+            "PropertyName": "mounting hole distance"
+        },
+        {
+            "BSU": "71EAC0EF68BB7",
+            "PropertyName": "mounting hole distance 2"
+        },
+        {
+            "BSU": "71EAC0EFA1BF3",
+            "PropertyName": "mounting hole height"
+        },
+        {
+            "BSU": "71EAC48EC5DE0",
+            "PropertyName": "neck diameter",
+            "Symbol":"DN"
+        },
+        {
+            "BSU": "71EBC1E026769",
+            "PropertyName": "neck length",
+            "Symbol":"LN"
+        },
+        {
+            "BSU": "71D078EB73E87",
+            "PropertyName": "overall height"
+        },
+        {
+            "BSU": "71D078EB7C086",
+            "PropertyName": "overall length",
+            "Symbol": "OAL",
+            "Fusion": "OAL"
+        },
+        {
+            "BSU": "71EBC1E8857BE",
+            "PropertyName": "overall length minimum"
+        },
+        {
+            "BSU": "71CF299257986",
+            "PropertyName": "overall width"
+        },
+        {
+            "BSU": "71DCCFF75E485",
+            "PropertyName": "peripheral effective cutting edge count"
+        },
+        {
+            "BSU": "71DCD00054F65",
+            "PropertyName": "peripheral mounted insert count"
+        },
+        {
+            "BSU": "71EAC49030828",
+            "PropertyName": "pilot drill protrusion"
+        },
+        {
+            "BSU": "71DCCFD24119E",
+            "PropertyName": "pilot protruding length"
+        },
+        {
+            "BSU": "71EBC1EA293DC",
+            "PropertyName": "tap chamfer point diameter"
+        },
+        {
+            "BSU": "71E02C679DC6D",
+            "PropertyName": "tap chamfer style"
+        },
+        {
+            "BSU": "71D08099F1DDC",
+            "PropertyName": "plunge depth maximum"
+        },
+        {
+            "BSU": "71DCCC4FEF366",
+            "PropertyName": "point angle"
+        },
+        {
+            "BSU": "71DCCFD064042",
+            "PropertyName": "point length"
+        },
+        {
+            "BSU": "71DCCC5A4FD18",
+            "PropertyName": "premachined hole diameter"
+        },
+        {
+            "BSU": "71DF8C5D91804",
+            "PropertyName": "profile specification"
+        },
+        {
+            "BSU": "71DCD394BB20E",
+            "PropertyName": "protruding length",
+            "Symbol": "LPR",
+            "Fusion": "LB"
+        },
+        {
+            "BSU": "71D078ED2C21E",
+            "PropertyName": "qualified tool code"
+        },
+        {
+            "BSU": "71CF29990C41F",
+            "PropertyName": "rake angle axial"
+        },
+        {
+            "BSU": "71CF2998EBD46",
+            "PropertyName": "rake angle normal"
+        },
+        {
+            "BSU": "71D0808F8F719",
+            "PropertyName": "rake angle orthogonal"
+        },
+        {
+            "BSU": "71CF2998A1609",
+            "PropertyName": "rake angle radial"
+        },
+        {
+            "BSU": "71DF1538632D9",
+            "PropertyName": "ramping angle maximum"
+        },
+        {
+            "BSU": "71DF153A691F2",
+            "PropertyName": "rotational speed maximum"
+        },
+        {
+            "BSU": "71CED04867743",
+            "PropertyName": "row identifier"
+        },
+        {
+            "BSU": "71CF2988A5874",
+            "PropertyName": "shank cross section shape code"
+        },
+        {
+            "BSU": "71CF29862B277",
+            "PropertyName": "shank diameter",
+            "Symbol":"DMM"
+        },
+        {
+            "BSU": "71CF29883E014",
+            "PropertyName": "shank height",
+            "Symbol":"H"
+        },
+        {
+            "BSU": "71CF298870946",
+            "PropertyName": "shank length",
+            "Symbol": "LS",
+            "Fusion": "LS"
+        },
+        {
+            "BSU": "71CF298751FCF",
+            "PropertyName": "shank width"
+        },
+        {
+            "BSU": "71FAE074D2EBD",
+            "PropertyName": "shim inclination angle"
+        },
+        {
+            "BSU": "71DCCC3BD1B96",
+            "PropertyName": "step count"
+        },
+        {
+            "BSU": "71DCCC3DFA23A",
+            "PropertyName": "step diameter length"
+        },
+        {
+            "BSU": "71DCCC47221E0",
+            "PropertyName": "step distance"
+        },
+        {
+            "BSU": "71DF151D6E547",
+            "PropertyName": "step included angle"
+        },
+        {
+            "BSU": "71EBC1EC0BB22",
+            "PropertyName": "stock removal maximum"
+        },
+        {
+            "BSU": "71EBC1EBC839F",
+            "PropertyName": "stock removal minimum"
+        },
+        {
+            "BSU": "71EBC1EC3E8B6",
+            "PropertyName": "stock removal recommended"
+        },
+        {
+            "BSU": "71EAC496E7425",
+            "PropertyName": "tangentially mounted insert"
+        },
+        {
+            "BSU": "71DF153B4ABCD",
+            "PropertyName": "tap type identifier"
+        },
+        {
+            "BSU": "71EAC4A2B6544",
+            "PropertyName": "taper angle",
+            "Symbol":"TA"
+        },
+        {
+            "BSU": "71CEAEC02FEBD",
+            "PropertyName": "taper gradient"
+        },
+        {
+            "BSU": "71EC659C9B3CE",
+            "PropertyName": "tapered"
+        },
+        {
+            "BSU": "71E02C5C2EED3",
+            "PropertyName": "thread diameter"
+        },
+        {
+            "BSU": "71EBBAA3BCA70",
+            "PropertyName": "thread diameter size"
+        },
+        {
+            "BSU": "71DF153FA5F85",
+            "PropertyName": "thread tolerance class"
+        },
+        {
+            "BSU": "71CF298A3A99A",
+            "PropertyName": "tool changer interference diameter maximum"
+        },
+        {
+            "BSU": "71CF2989AF0E0",
+            "PropertyName": "tool changer interference length minimum"
+        },
+        {
+            "BSU": "71D078F683C9B",
+            "PropertyName": "tool cutting edge angle"
+        },
+        {
+            "BSU": "71D078F6E9893",
+            "PropertyName": "tool cutting edge angle type code"
+        },
+        {
+            "BSU": "71D078FD4E7BE",
+            "PropertyName": "tool holder shape code",
+            "Symbol":"THSC"
+        },
+        {
+            "BSU": "71D078F77616B",
+            "PropertyName": "tool lead angle"
+        },
+        {
+            "BSU": "71D078FBF6C68",
+            "PropertyName": "tool style code",
+            "Symbol":"TSYC"
+        },
+        {
+            "BSU": "726E424FE9EC2",
+            "PropertyName": "tool style code",
+            "Symbol":"TSYC"
+        },
+        {
+            "BSU": "71EBBA9ED6C0A",
+            "PropertyName": "unit system",
+            "Symbol":"UST"
+        },
+        {
+            "BSU": "71EBB33490FDA",
+            "PropertyName": "usable length",
+            "Symbol": "LU",
+            "Fusion": "shoulder-length"
+        },
+        {
+            "BSU": "71DCCC62CD9EE",
+            "PropertyName": "usable length diameter ratio"
+        },
+        {
+            "BSU": "71CF2992BDBCC",
+            "PropertyName": "usable length maximum",
+            "Symbol": "LUX",
+            "Fusion": "shoulder-length"
+        },
+        {
+            "BSU": "71EAC823D95A7",
+            "PropertyName": "web taper"
+        },
+        {
+            "BSU": "71EAC82313165",
+            "PropertyName": "web thickness"
+        },
+        {
+            "BSU": "71CED03C97AAB",
+            "PropertyName": "weight of item"
+        },
+        {
+            "BSU": "71D0757C787B8",
+            "PropertyName": "work piece parting diameter maximum"
+        }
+    ]
+}

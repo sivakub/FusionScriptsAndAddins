@@ -1,0 +1,52 @@
+{
+    "data": [
+        {
+            "BMC": "unspecified",
+            "GRADE": "generic",
+            "description": "UnNamed",
+            "geometry": {},
+            "guid": "{f750d671-9128-4381-99e7-da2b8b8ef325}",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 0,
+                "length-offset": 0,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 0,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "unNamed",
+                        "f_n": 0,
+                        "f_z": 0,
+                        "guid": "f87d03fd-ba6c-4f82-a44f-f2aff94aa727",
+                        "n": 0,
+                        "n_ramp": 0,
+                        "name": "Default Preset",
+                        "tool-coolant": "flood",
+                        "use-stepdown": "false",
+                        "use-stepover": "false",
+                        "stepdown": 0,
+                        "stepover": 0,
+                        "v_c": 0,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 0,
+                        "v_f_ramp": 0,
+                        "v_f_retract": 0
+                    }
+                ]
+            },
+            "type": null,
+            "unit": "millimeters",
+            "vendor": ""
+        }
+    ],
+    "version": 1
+}

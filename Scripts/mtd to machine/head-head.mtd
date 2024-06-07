@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+
+
+<!-- Example of 5-axis Head-Head configuration -->
+<!-- Table moves in Y, Head moves in X & Z -->
+<!-- Both rotary axes on head controlled by A & B -->
+<!-- Note the restricted movement on A axis -->
+
+
+<machine xmlns="x-schema:PowermillMachineTool">
+
+  <!-- Where things are attached to the machine -->
+  <table_attach_point PART="table" X="0" Y="0" Z="0" />
+  <head_attach_point PART="head" X="0" Y="-51.80564" Z="311.932" I="0" J="0" K="1" />
+
+  <!-- The head -->
+  <machine_part>
+    <axis>
+      <control_info ADDRESS="X" MIN="-500" MAX="500" />
+      <simple_linear I="1" J="0" K="0" />
+    </axis>
+    <machine_part>
+      <axis>
+        <control_info ADDRESS="Z" VALUE="311.9320" MAX="1000" />
+        <simple_linear I="0" J="0" K="1" />
+      </axis>
+      <model_list>
+        <dmt_file>
+          <path FILE="machine_parts/column_b.dmt" />
+          <rgb R="255" G="255" B="255" />
+        </dmt_file>
+      </model_list>
+      <machine_part>
+        <axis>
+          <control_info ADDRESS="A" MIN="-180" MAX="180" />
+          <simple_rotary X="0" Y="0" Z="0" I="0" J="0" K="1" />
+        </axis>
+        <model_list>
+          <dmt_file>
+            <path FILE="machine_parts/holder_1.dmt" />
+            <rgb R="200" G="200" B="200" />
+          </dmt_file>
+          <dmt_file>
+            <path FILE="machine_parts/holder_2.dmt" />
+            <rgb R="255" G="255" B="255" />
+          </dmt_file>
+        </model_list>
+        <machine_part>
+          <axis>
+            <control_info ADDRESS="B" />
+            <simple_rotary X="0" Y="-51.80564" Z="501.93202" I="1" J="0" K="0" />
+          </axis>
+          <model_list>
+            <dmt_file>
+              <path FILE="machine_parts/barrel_1.dmt" />
+              <rgb R="255" G="255" B="255" />
+            </dmt_file>
+            <dmt_file>
+              <path FILE="machine_parts/barrel_2.dmt" />
+              <rgb R="200" G="200" B="200" />
+            </dmt_file>
+          </model_list>
+          <machine_part NAME="head" />
+        </machine_part>
+      </machine_part>
+    </machine_part>
+  </machine_part>
+
+  <!-- The table -->
+  <machine_part>
+    <axis>
+      <control_info ADDRESS="Y" VALUE="-51.80564" MIN="-1500" MAX="1500" />
+      <simple_linear I="0" J="-1" K="0" />
+    </axis>
+    <model_list>
+      <dmt_file>
+        <path FILE="machine_parts/table_1.dmt" />
+        <rgb R="200" G="200" B="200" />
+      </dmt_file>
+    </model_list>
+    <machine_part NAME="table" />
+  </machine_part>
+
+</machine>

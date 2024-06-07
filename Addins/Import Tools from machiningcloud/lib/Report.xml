@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright © MachiningCloud, Inc. 2021-->
+<job name="Modino" description="" material="" materialClassification="" owner="Boopathi Sivakumar" id="5202207" serverVersion="3.5.1.1" language="en" target="Mastercam">
+	<machiningFeatures />
+	<toolAssemblies>
+		<assembly name="Tool 3" id="15672362" freeForm="No">
+			<measurements>
+				<measurement name="BD" description="Body Diameter Max" unit="mm" imperialValue="1.6535" imperialUnit="in">42</measurement>
+				<measurement name="APMX" description="Depth of Cut Max" unit="mm" imperialValue="1.1811" imperialUnit="in">30</measurement>
+				<measurement name="LF" description="Functional Length" unit="mm" imperialValue="11.4173" imperialUnit="in">290</measurement>
+				<measurement name="LPR" description="Tool Protrusion Length" unit="mm" imperialValue="11.4173" imperialUnit="in">290</measurement>
+				<measurement name="LTA" description="Tool Assembly Length" unit="mm" imperialValue="11.4173" imperialUnit="in">290</measurement>
+				<measurement name="OAL" description="Overall Length" unit="mm" imperialValue="7.6929" imperialUnit="in">195.4</measurement>
+				<measurement name="DCONMS" description="Connection Diameter Machine Side" unit="mm" imperialValue="2.4803" imperialUnit="in">63</measurement>
+				<measurement name="LU" description="Usable length" unit="mm" imperialValue="1.1811" imperialUnit="in">30</measurement>
+				<measurement name="DC" description="Cutting Diameter Max" unit="mm" imperialValue="0.7874" imperialUnit="in">20</measurement>
+				<CoordinateSystem name="MCS" type="MCS" description="Mounting Coordinate System" unit="mm" origin="(0,0,0)" imperialUnit="in" imperialValue="(0,0,0)" u-axis="(0,0,1)" v-axis="(1,0,0)" />
+				<CoordinateSystem name="PCS" type="PCS" description="Primary Coordinate System" unit="mm" origin="(0,0,0)" imperialUnit="in" imperialValue="(0,0,0)" u-axis="(0,0,1)" v-axis="(1,0,0)" />
+				<CoordinateSystem name="CSW" type="CSW" description="Coordinate System Workpiece Side" unit="mm" origin="(0,0,-129.997)" imperialUnit="in" imperialValue="(0,0,-5.11799)" u-axis="(0,0,1)" v-axis="(1,0,0)" />
+				<BoundingBox description="Bounding box">
+					<MinCorner unit="mm" imperialUnit="in" imperialValue="(-1.23969,-1.23969,-5.11811)">(-31.488,-31.488,-130)</MinCorner>
+					<MaxCorner unit="mm" imperialUnit="in" imperialValue="(1.23972,1.23972,2.5748)">(31.489,31.489,65.4)</MaxCorner>
+				</BoundingBox>
+			</measurements>
+			<performance userInput="No">
+				<parameter name="Material" symbol="(WPM)" materialId="1">P1</parameter>
+				<parameter name="Axial Depth of Cut" symbol="(ap)" unit="mm" imperialUnit="in" imperialValue="0.039">1</parameter>
+				<parameter name="Radial Width of Cut" symbol="(ae)" unit="mm" imperialUnit="in" imperialValue="0.039">1</parameter>
+				<parameter name="Cutting Speed" symbol="(Vc)" unit="m/min" imperialUnit="ft/min" imperialValue="492.126">150</parameter>
+				<parameter name="Feed per Tooth" symbol="(fz)" unit="mm" imperialUnit="in" imperialValue="0.00197">0.05</parameter>
+				<parameter name="Feed Rate" symbol="(Vf)" unit="mm/min" imperialUnit="in/min" imperialValue="14.096">358.05</parameter>
+				<parameter name="Spindle Speed" symbol="(n)" unit="rev/min" imperialUnit="rev/min" imperialValue="2387">2387</parameter>
+				<parameter name="Material Removal Rate" symbol="(MRR)" unit="cm3/min" imperialUnit="in3/min" imperialValue="0.02185">0.3581</parameter>
+				<parameter name="Feed per Revolution" symbol="(fn)" unit="mm/rev" imperialUnit="in/rev" imperialValue="0.00591">0.15</parameter>
+				<parameter name="Number of Effective Inserts/Flutes" symbol="(z)">3</parameter>
+				<parameter name="Cutting Diameter" symbol="(Dc)" unit="mm" imperialUnit="in" imperialValue="0.787">20</parameter>
+			</performance>
+			<graphics>
+				<model format="STEP" complexity="AntiCollision">.\Models\Tool 3_AntiCollision.stp</model>
+			</graphics>
+			<toolItem id="25363417" productGroup="AdaptiveItem" mcType="ADAPTER_CONVERTER_ROTATED" NSM="DIN4000-89" dinType="89_01" BSUCode="71EAD3871D313" isoType="401_5" isoDescription="Converter, rotationally symmetric" gtcType="ADPRS" gtcGenericVersion="1.10" catalogNumber="B4L4-8020" orderNumber="B4L4-8020" publisher="Command Tooling Systems" unitSystem="Metric">
+				<graphics>
+					<model format="STEP" complexity="RenderedModel">.\Models\B4L4-8020_GTM.STP</model>
+					<image type="Callout">.\Images\shrinkfit_hp_bt40_standardgagelength_Right_ArtCallout.png</image>
+					<image type="Product Image">.\Images\shrinkfit_hp_bt40_standardgagelength_Left_ArtToolLarge.png</image>
+				</graphics>
+				<properties>
+					<property name="BD_1" description="body diameter" BSUCode="71ED6A9AF7D1D" unit="mm" imperialValue="1.299" imperialUnit="in">33</property>
+					<property name="BD_2" description="body diameter" BSUCode="71ED6A9AF7D1D" unit="mm" imperialValue="1.654" imperialUnit="in">42</property>
+					<property name="CCFMS" description="connection code form type machine side" BSUCode="726E3E84DD902">51</property>
+					<property name="CCFWS" description="connection code form type workpiece side" BSUCode="726E3E8558953">01</property>
+					<property name="CCMS" description="connection code machine side" BSUCode="71D102AE3B252">SKG51C0400$$$$</property>
+					<property name="CCTMS" description="connection code type machine side" BSUCode="726E3E82E53A6">SKG</property>
+					<property name="CCTWS" description="connection code type workpiece side" BSUCode="726E3E83D7357">ZYL</property>
+					<property name="CCWS" description="connection code workpiece side" BSUCode="71D102AE8A5A9">ZYL01G2000****</property>
+					<property name="DCONMS" description="connection diameter machine side" BSUCode="71EBDBF5060E6">63.0000</property>
+					<property name="KAPR" description="tool cutting edge angle" BSUCode="71D078F683C9B">0.0000</property>
+					<property name="LF" description="functional length" BSUCode="71DCD39338974">130.0000</property>
+					<property name="LPR" description="protruding length" BSUCode="71DCD394BB20E" unit="mm" imperialValue="5.1181" imperialUnit="in">130</property>
+					<property name="LSC" description="clamping length" BSUCode="71EBAF896BE9A" unit="mm" imperialValue="2.1654" imperialUnit="in">55</property>
+					<property name="LSCMS" description="clamping length machine side" BSUCode="71EBAF896BE9A">0.0000</property>
+					<property name="LSCWS" description="clamping length workpiece side" BSUCode="72996F3DC8E8A" unit="mm" imperialValue="2.1654" imperialUnit="in">55</property>
+					<property name="LTA" description="tool assembly length" BSUCode="728B074A39EBC" unit="mm" imperialValue="5.118" imperialUnit="in">129.997</property>
+					<property name="OAL" description="overall length" BSUCode="71D078EB7C086">195.4000</property>
+					<property name="TTP" description="thread type" BSUCode="71D1A6A16E6ED">M16 X 1</property>
+				</properties>
+			</toolItem>
+			<toolItem id="25363416" productGroup="ToolItem" mcType="MILL_SEM_BALL" NSM="DIN4000-82" dinType="82_06" BSUCode="71E01A05D27A8" isoType="303_10" isoDescription="Ball-nosed end mill" gtcType="MILBNSS" gtcGenericVersion="1.10" catalogNumber="CEPB2200" orderNumber="AA1031" publisher="Moldino" unitSystem="Metric">
+				<graphics>
+					<image type="Callout">.\Images\MILBNSS_MH_CEPB2_MMSS_1_ArtCallout.png</image>
+					<image type="Product Image">.\Images\MILBNSS_MH_CEPB2_MMSS_ArtToolLarge.png</image>
+				</graphics>
+				<properties>
+					<property name="APMX" description="depth of cut maximum" BSUCode="71D07576C0558" unit="mm" imperialValue="1.1811" imperialUnit="in">30</property>
+					<property name="BMC" description="body material code" BSUCode="71DF1523224D8">H</property>
+					<property name="CCFMS" description="connection code form type machine side" BSUCode="726E3E84DD902">01</property>
+					<property name="CCMS" description="connection code machine side" BSUCode="71D102AE3B252">ZYL01G2000h$06</property>
+					<property name="CCTMS" description="connection code type machine side" BSUCode="726E3E82E53A6">ZYL</property>
+					<property name="CTP" description="coating property" BSUCode="71DD703B84298">1</property>
+					<property name="DC" description="cutting diameter" BSUCode="71D084653E57F" unit="mm" imperialValue="0.7874" imperialUnit="in">20</property>
+					<property name="DCON" description="connection diameter" BSUCode="71EBDBF5060E6" unit="mm" imperialValue="0.7874" imperialUnit="in">20</property>
+					<property name="FHH" description="flute helix hand" BSUCode="71DCCFF654756">R</property>
+					<property name="HAND" description="hand" BSUCode="71CF29872F0AB">R</property>
+					<property name="LF" description="functional length" BSUCode="71DCD39338974" unit="mm" imperialValue="6.2992" imperialUnit="in">160</property>
+					<property name="LPR" description="protruding length" BSUCode="71DCD394BB20E" unit="mm" imperialValue="2.2047" imperialUnit="in">56</property>
+					<property name="LU" description="usable length" BSUCode="71EBB33490FDA" unit="mm" imperialValue="1.1811" imperialUnit="in">30</property>
+					<property name="RE" description="corner radius" BSUCode="71DD6C8ACA503" unit="mm" imperialValue="0.3937" imperialUnit="in">10</property>
+					<property name="TSYC" description="tool style code" BSUCode="71D078FBF6C68">CEPB2</property>
+					<property name="UST" description="unit system" BSUCode="71EBBA9ED6C0A">metric</property>
+					<property name="ZEFP" description="peripheral effective cutting edge count" BSUCode="71DCCFF75E485">2</property>
+				</properties>
+			</toolItem>
+			<assemblyStructure>
+				<root toolItemId="25363417" />
+				<connections>
+					<connection>
+						<machineSide toolItemId="25363417" />
+						<workpieceSide toolItemId="25363416" />
+					</connection>
+				</connections>
+			</assemblyStructure>
+		</assembly>
+	</toolAssemblies>
+	<workholdingAssemblies />
+</job>

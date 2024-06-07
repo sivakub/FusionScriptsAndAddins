@@ -1,0 +1,13 @@
+{
+	"autodeskProduct":	"Fusion",
+	"type":	"addin",
+	"id":	"8b7cd9af-be73-42dc-8230-8aa06f9f41e1",
+	"author":	"Boopathi Sivakumar",
+	"description":	{
+		"":	"Export Fusion files to (PowerMill) DGK"
+	},
+	"version":	"V1.0.0",
+	"runOnStartup":	true,
+	"supportedOS":	"windows",
+	"editEnabled":	true
+}

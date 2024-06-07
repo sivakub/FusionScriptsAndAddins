@@ -1,0 +1,13 @@
+{
+	"autodeskProduct":	"Fusion360",
+	"type":	"addin",
+	"id":	"cebf4314-d646-49af-8948-9df51c47c98c",
+	"author":	"Boopathi Sivakumar",
+	"description":	{
+		"":	"Post process the NC programs"
+	},
+	"version":	"1.0.0",
+	"runOnStartup":	false,
+	"supportedOS":	"windows|mac",
+	"editEnabled":	true
+}

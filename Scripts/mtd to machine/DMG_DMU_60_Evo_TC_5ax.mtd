@@ -1,0 +1,258 @@
+<?xml version="1.0" ?>
+<!-- ****************************************************** -->
+<!-- Machine Tool Manufacturer	: DMG		 			    -->
+<!-- Machine Tool Model			: DMU 60 Evo 		        -->
+<!-- Machine Tool Type			: 5-Axis Mill			    -->
+<!-- Machine Tool Configuration	: 5-Axis Table-Table	    -->
+<!-- Linear Axis Limits			: Xmin -300    Xmax +300   	-->
+<!--							: Ymin -250    Ymax +250	-->
+<!--							: Zmin +125    Zmax +625   	-->
+<!-- Rotary Axial Limits		: Amin -   	   Amax +   	-->
+<!--							: Bmin -6.105  Bmax +178.897 -->
+<!--							: Cmin -inf	   Cmax +inf 	-->
+<!-- Component Tolerance		: 0.025;0.05;0.25          	-->
+<!-- ****************************************************** -->
+<!-- 				Who			: vman/Vitaly Manchuk	    -->
+<!-- 				When		: 29.05.2017 			    -->
+<!-- 				Checked By 	: akova/Alexey Kovalenko    -->
+<!-- 				Checked		: 29.05.2017			    -->
+<!-- 				Revision 	: 1.001 				    -->
+<!-- ****************************************************** -->
+<!-- When			Who				What 					-->
+<!-- ****************************************************** -->
+<!--DMG_DMU_60_Evo-->
+
+<machine xmlns="x-schema:PowermillMachineTool" POST="pmpMultiaxis.*"> 
+
+<!-- Where things are attached to the machine -->
+<table_attach_point PART="table" X="0" Y="0" Z="0" />
+<head_attach_point PART="head" X="0" Y="0" Z="625" I="0" J="0" K="1" />
+
+<tool_change>
+<tool_change_pre_moves>
+MOVETO Z625 B0 C0 TIME=300
+MOVETO X-327.0276 Y-309.5913 TIME=500
+MOVETO Z514.86687 TIME=500
+MOVETO Q-90 P90 TIME=300
+MOVETO S450 TIME=500
+WAIT 500
+TOOLPASS "TARM"
+MOVETO T-110 TIME=300
+MOVETO R180 TIME=300
+MOVETO T0 TIME=300
+MOVETO S0 TIME=500
+WAIT 500
+</tool_change_pre_moves>
+<tool_change_post_moves>
+TOOLPASS "TARM"
+MOVETO S450 TIME=1000
+MOVETO T-110 TIME=300
+MOVETO R0 TIME=300
+MOVETO T0 TIME=300
+TOOLCHANGE
+MOVETO S0 TIME=500
+MOVETO Q0 P0 TIME=300
+MOVETO Z625 TIME=200
+MOVETO X0 Y0 TIME=300
+</tool_change_post_moves>
+
+ <tool_change_moves>
+PUTONLY: MOVETO S-100 TIME=300
+PUTONLY: TOOLPASS "TC"
+ </tool_change_moves>
+
+</tool_change>
+
+<!-- The static bits -->
+	<machine_part>
+		<model_list>
+			<dmt_file>
+				<path FILE="DMG_DMU_60_Evo/base.dmt" />
+				<rgb R="80" G="80" B="100" />
+			</dmt_file>
+			<dmt_file>
+				<path FILE="DMG_DMU_60_Evo/brails.dmt" />
+				<rgb R="150" G="150" B="150" />
+			</dmt_file>
+			<dmt_file>
+                <path FILE="DMG_DMU_60_Evo/dmu.dmt" />
+                <rgb R="255" G="255" B="255"/>
+            </dmt_file>
+			<dmt_file>
+                <path FILE="DMG_DMU_60_Evo/ts.dmt" />
+                <rgb R="180" G="180" B="180"/>
+            </dmt_file>
+		</model_list>
+	</machine_part>
+
+	<machine_part>
+		<model_list OPACITY="10">
+			<dmt_file>
+                <path FILE="DMG_DMU_60_Evo/door.dmt" />
+                <rgb R="240" G="240" B="240"/>
+            </dmt_file>
+			<dmt_file>
+                <path FILE="DMG_DMU_60_Evo/door_b.dmt" />
+                <rgb R="40" G="40" B="40"/>
+            </dmt_file>
+			<dmt_file>
+                <path FILE="DMG_DMU_60_Evo/enclosure.dmt" />
+                <rgb R="250" G="250" B="250"/>
+            </dmt_file>
+		</model_list>
+	</machine_part>
+	
+<!-- ===== The_Table ===== -->
+	<machine_part>
+		<axis>
+			<control_info ADDRESS="B" MIN="-6.105" MAX="178.897" />
+			<simple_rotary X="-364.0535" Y="357.05133" Z="-207.0513" I="0.5849324" J="-0.5735215" K="0.5735215" />
+		</axis>
+			<model_list>
+				<dmt_file>
+					<path FILE="DMG_DMU_60_Evo/b_axis_table.dmt" />
+					<rgb R="230" G="230" B="230" />
+				</dmt_file>
+			</model_list>
+		<machine_part>
+			<axis>
+				<control_info ADDRESS="C" VALUE="0" />
+				<simple_rotary X="0" Y="0" Z="0" I="0" J="0" K="-1" />
+			</axis>
+				<model_list>
+					<dmt_file>
+						<path FILE="DMG_DMU_60_Evo/c_axis_table.dmt" />
+						<rgb R="200" G="200" B="200" />
+					</dmt_file>
+				</model_list>
+			<machine_part NAME="table" />
+		</machine_part>
+	</machine_part>
+	
+<!-- ===== The head ===== -->
+	<machine_part>
+		<axis>
+			<control_info ADDRESS="Y" VALUE="0" MIN="-250" MAX="250"/>
+			<simple_linear I="0" J="1" K="0" />
+		</axis>
+			<model_list>
+				<dmt_file>
+					<path FILE="DMG_DMU_60_Evo/y_axis_head.dmt" />
+					<rgb R="130" G="130" B="130" />
+				</dmt_file>
+				<dmt_file>
+					<path FILE="DMG_DMU_60_Evo/yrails.dmt" />
+					<rgb R="150" G="150" B="150" />
+				</dmt_file>
+				<dmt_file>
+					<path FILE="DMG_DMU_60_Evo/ycover.dmt" />
+					<rgb R="190" G="190" B="190" />
+				</dmt_file>
+			</model_list>
+		<machine_part>
+			<axis>
+				<control_info ADDRESS="X" VALUE="0" MIN="-300" MAX="300" />
+				<simple_linear I="1" J="0" K="0" />
+			</axis>
+				<model_list>
+					<dmt_file>
+						<path FILE="DMG_DMU_60_Evo/x_axis_head.dmt" />
+						<rgb R="80" G="80" B="80" />
+					</dmt_file>
+					<dmt_file>
+						<path FILE="DMG_DMU_60_Evo/xcover.dmt" />
+						<rgb R="225" G="225" B="225" />
+					</dmt_file>
+				</model_list>
+			<machine_part NAME="Z_ax" >
+				<axis>
+					<control_info ADDRESS="Z" VALUE="625" MIN="125" MAX="625" />
+					<simple_linear I="0" J="0" K="1" />
+				</axis> 
+					<model_list>
+						<dmt_file>
+							<path FILE="DMG_DMU_60_Evo/z_axis_head.dmt" />
+							<rgb R="190" G="190" B="190" />
+						</dmt_file>
+						<dmt_file>
+							<path FILE="DMG_DMU_60_Evo/cooling.dmt" />
+							<rgb R="150" G="150" B="200" />
+						</dmt_file>
+						<dmt_file>
+							<path FILE="DMG_DMU_60_Evo/spindle.dmt" />
+							<rgb R="215" G="215" B="215" />
+						</dmt_file>
+						<dmt_file>
+							<path FILE="DMG_DMU_60_Evo/zrails.dmt" />
+							<rgb R="150" G="150" B="150" />
+						</dmt_file>
+					</model_list>
+				<machine_part NAME="head" />
+			</machine_part>
+		</machine_part>
+	</machine_part>
+
+	<!-- ===== Tool Changer ===== -->
+<machine_part>
+			<axis>
+				<control_info ADDRESS="Q" VALUE="0" PRIORITY="HIDDEN" />
+				<simple_rotary X="-685.9768" Y="-290.2395" Z="0" I="0" J="0" K="1" />
+			</axis>
+			<model_list>
+			<dmt_file>
+				<path FILE="DMG_DMU_60_Evo/tcdl.dmt" />
+				<rgb R="150" G="150" B="150" />
+			</dmt_file>
+			</model_list>
+</machine_part>
+<machine_part>
+			<axis>
+				<control_info ADDRESS="P" VALUE="0" PRIORITY="HIDDEN" />
+				<simple_rotary X="-614.3236" Y="-93.37388" Z="0" I="0" J="0" K="1" />
+			</axis>
+			<model_list>
+			<dmt_file>
+				<path FILE="DMG_DMU_60_Evo/tcdr.dmt" />
+				<rgb R="150" G="150" B="150" />
+			</dmt_file>
+			</model_list>
+</machine_part>
+	<machine_part>
+		<axis>
+			<control_info ADDRESS="S" VALUE="0" MIN="0" MAX="460.15" PRIORITY="HIDDEN" />
+			<simple_linear I="0.939662" J="-0.342104" K="0" />
+		</axis>
+			<model_list>
+			<dmt_file>
+				<path FILE="DMG_DMU_60_Evo/tcslide.dmt" />
+				<rgb R="120" G="120" B="120" />
+			</dmt_file>
+			</model_list>
+		<machine_part>
+			<axis>
+				<control_info ADDRESS="R" VALUE="0" PRIORITY="HIDDEN" />
+				<simple_rotary X="-825.0264" Y="-128.2153" Z="0" I="0" J="0" K="1" />
+			</axis>
+			<model_list>
+			<dmt_file>
+				<path FILE="DMG_DMU_60_Evo/tcrot.dmt" />
+				<rgb R="150" G="150" B="150" />
+			</dmt_file>
+			</model_list>
+			<machine_part NAME="TARM" >
+			<axis>
+				<control_info ADDRESS="T" VALUE="0" PRIORITY="HIDDEN" />
+				<simple_linear I="0" J="0" K="1" />
+			</axis>
+			<model_list>
+			<dmt_file>
+				<path FILE="DMG_DMU_60_Evo/tcarm.dmt" />
+				<rgb R="60" G="60" B="60" />
+			</dmt_file>
+			</model_list>
+			</machine_part>
+		</machine_part>
+	</machine_part>
+<machine_part NAME="TC">
+</machine_part>
+</machine>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<machine xmlns="x-schema:PowermillMachineTool" POST="pmpMultiaxis.*">
+ <head_attach_point PART="head" X="0" Y="0" Z="508" I="0" J="0" K="1" U="1" V="0" W="0" />
+ <table_attach_point PART="table" X="0" Y="0" Z="0" I="0" J="0" K="1" U="1" V="0" W="0" />
+ <machine_part>
+  <model_list OPACITY="10">
+   <triangle_file>
+    <path FILE="C:/Users/rst/Downloads/PM_Haas_UMC_500SS_5ax/PM_Haas_UMC_500SS_5ax/Haas_UMC_500SS/enclosure.dmt" />
+    <rgb R="255" G="255" B="255" />
+   </triangle_file>
+   <triangle_file>
+    <path FILE="C:/Users/rst/Downloads/PM_Haas_UMC_500SS_5ax/PM_Haas_UMC_500SS_5ax/Haas_UMC_500SS/door.dmt" />
+    <rgb R="215" G="215" B="215" />
+   </triangle_file>
+   <triangle_file>
+    <path FILE="C:/Users/rst/Downloads/PM_Haas_UMC_500SS_5ax/PM_Haas_UMC_500SS_5ax/Haas_UMC_500SS/handle.dmt" />
+    <rgb R="100" G="100" B="100" />
+   </triangle_file>
+   <triangle_file>
+    <path FILE="C:/Users/rst/Downloads/PM_Haas_UMC_500SS_5ax/PM_Haas_UMC_500SS_5ax/Haas_UMC_500SS/x_axis_cover.dmt" />
+    <rgb R="100" G="100" B="100" />
+   </triangle_file>
+   <triangle_file>
+    <path FILE="C:/Users/rst/Downloads/PM_Haas_UMC_500SS_5ax/PM_Haas_UMC_500SS_5ax/Haas_UMC_500SS/chips_conveer.dmt" />
+    <rgb R="50" G="50" B="50" />
+   </triangle_file>
+   <triangle_file>
+    <path FILE="C:/Users/rst/Downloads/PM_Haas_UMC_500SS_5ax/PM_Haas_UMC_500SS_5ax/Haas_UMC_500SS/box_1.dmt" />
+    <rgb R="80" G="80" B="80" />
+   </triangle_file>
+   <triangle_file>
+    <path FILE="C:/Users/rst/Downloads/PM_Haas_UMC_500SS_5ax/PM_Haas_UMC_500SS_5ax/Haas_UMC_500SS/box_2.dmt" />
+    <rgb R="120" G="120" B="120" />
+   </triangle_file>
+  </model_list>
+ </machine_part>
+ <machine_part NAME="base">
+  <model_list OPACITY="100">
+   <triangle_file>
+    <path FILE="C:/Users/rst/Downloads/PM_Haas_UMC_500SS_5ax/PM_Haas_UMC_500SS_5ax/Haas_UMC_500SS/base_1.dmt" />
+    <rgb R="90" G="90" B="90" />
+   </triangle_file>
+   <triangle_file>
+    <path FILE="C:/Users/rst/Downloads/PM_Haas_UMC_500SS_5ax/PM_Haas_UMC_500SS_5ax/Haas_UMC_500SS/base_2.dmt" />
+    <rgb R="60" G="60" B="60" />
+   </triangle_file>
+  </model_list>
+ </machine_part>
+ <machine_part NAME="tool_changer">
+  <model_list OPACITY="100">
+   <triangle_file>
+    <path FILE="C:/Users/rst/Downloads/PM_Haas_UMC_500SS_5ax/PM_Haas_UMC_500SS_5ax/Haas_UMC_500SS/tool_changer_1.dmt" />
+    <rgb R="255" G="255" B="10" />
+   </triangle_file>
+   <triangle_file>
+    <path FILE="C:/Users/rst/Downloads/PM_Haas_UMC_500SS_5ax/PM_Haas_UMC_500SS_5ax/Haas_UMC_500SS/tool_changer_2.dmt" />
+    <rgb R="160" G="160" B="160" />
+   </triangle_file>
+  </model_list>
+ </machine_part>
+ <machine_part NAME="tool_checking">
+  <model_list OPACITY="100">
+   <triangle_file>
+    <path FILE="C:/Users/rst/Downloads/PM_Haas_UMC_500SS_5ax/PM_Haas_UMC_500SS_5ax/Haas_UMC_500SS/tool_checking.dmt" />
+    <rgb R="160" G="245" B="170" />
+   </triangle_file>
+  </model_list>
+ </machine_part>
+ <machine_part>
+  <axis>
+   <control_info ADDRESS="X" MIN="-356" MAX="254" HOME="0" VALUE="0" PRIORITY="HIGH" />
+   <simple_linear I="1" J="0" K="0" />
+  </axis>
+  <model_list OPACITY="100">
+   <triangle_file>
+    <path FILE="C:/Users/rst/Downloads/PM_Haas_UMC_500SS_5ax/PM_Haas_UMC_500SS_5ax/Haas_UMC_500SS/x_axis_head.dmt" />
+    <rgb R="255" G="255" B="255" />
+   </triangle_file>
+  </model_list>
+  <machine_part>
+   <axis>
+    <control_info ADDRESS="Y" MIN="-203" MAX="203" HOME="0" VALUE="0" PRIORITY="HIGH" />
+    <simple_linear I="0" J="1" K="0" />
+   </axis>
+   <model_list OPACITY="100">
+    <triangle_file>
+     <path FILE="C:/Users/rst/Downloads/PM_Haas_UMC_500SS_5ax/PM_Haas_UMC_500SS_5ax/Haas_UMC_500SS/y_axis_head.dmt" />
+     <rgb R="160" G="160" B="160" />
+    </triangle_file>
+   </model_list>
+   <machine_part>
+    <axis>
+     <control_info ADDRESS="Z" MIN="102" MAX="508" HOME="508" VALUE="508" PRIORITY="HIGH" />
+     <simple_linear I="0" J="0" K="1" />
+    </axis>
+    <model_list OPACITY="100">
+     <triangle_file>
+      <path FILE="C:/Users/rst/Downloads/PM_Haas_UMC_500SS_5ax/PM_Haas_UMC_500SS_5ax/Haas_UMC_500SS/z_axis_head.dmt" />
+      <rgb R="255" G="255" B="255" />
+     </triangle_file>
+     <triangle_file>
+      <path FILE="C:/Users/rst/Downloads/PM_Haas_UMC_500SS_5ax/PM_Haas_UMC_500SS_5ax/Haas_UMC_500SS/spindle.dmt" />
+      <rgb R="175" G="175" B="175" />
+     </triangle_file>
+     <triangle_file>
+      <path FILE="C:/Users/rst/Downloads/PM_Haas_UMC_500SS_5ax/PM_Haas_UMC_500SS_5ax/Haas_UMC_500SS/sensor.dmt" />
+      <rgb R="200" G="200" B="200" />
+     </triangle_file>
+     <triangle_file>
+      <path FILE="C:/Users/rst/Downloads/PM_Haas_UMC_500SS_5ax/PM_Haas_UMC_500SS_5ax/Haas_UMC_500SS/coolant.dmt" />
+      <rgb R="255" G="128" B="64" />
+     </triangle_file>
+    </model_list>
+    <machine_part NAME="head" />
+   </machine_part>
+  </machine_part>
+ </machine_part>
+ <machine_part>
+  <axis>
+   <control_info ADDRESS="B" MIN="-20" MAX="120" HOME="0" VALUE="0" PRIORITY="MEDIUM" />
+   <simple_rotary X="0" Y="0" Z="50.8" I="0" J="-1" K="0" />
+  </axis>
+  <model_list OPACITY="100">
+   <triangle_file>
+    <path FILE="C:/Users/rst/Downloads/PM_Haas_UMC_500SS_5ax/PM_Haas_UMC_500SS_5ax/Haas_UMC_500SS/b_axis_table_1.dmt" />
+    <rgb R="190" G="190" B="190" />
+   </triangle_file>
+   <triangle_file>
+    <path FILE="C:/Users/rst/Downloads/PM_Haas_UMC_500SS_5ax/PM_Haas_UMC_500SS_5ax/Haas_UMC_500SS/b_axis_table_2.dmt" />
+    <rgb R="140" G="140" B="140" />
+   </triangle_file>
+   <triangle_file>
+    <path FILE="C:/Users/rst/Downloads/PM_Haas_UMC_500SS_5ax/PM_Haas_UMC_500SS_5ax/Haas_UMC_500SS/b_axis_cover.dmt" />
+    <rgb R="70" G="70" B="70" />
+   </triangle_file>
+  </model_list>
+  <machine_part>
+   <axis>
+    <control_info ADDRESS="C" HOME="0" VALUE="0" PRIORITY="MEDIUM" />
+    <simple_rotary X="0" Y="0" Z="0" I="0" J="0" K="-1" />
+   </axis>
+   <model_list OPACITY="100">
+    <triangle_file>
+     <path FILE="C:/Users/rst/Downloads/PM_Haas_UMC_500SS_5ax/PM_Haas_UMC_500SS_5ax/Haas_UMC_500SS/c_axis_table.dmt" />
+     <rgb R="250" G="250" B="250" />
+    </triangle_file>
+    <triangle_file>
+     <path FILE="C:/Users/rst/Downloads/PM_Haas_UMC_500SS_5ax/PM_Haas_UMC_500SS_5ax/Haas_UMC_500SS/c_axis_cover.dmt" />
+     <rgb R="70" G="70" B="70" />
+    </triangle_file>
+   </model_list>
+   <machine_part NAME="table" />
+  </machine_part>
+ </machine_part>
+</machine>
+
